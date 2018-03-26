@@ -718,6 +718,20 @@ blockquote {
   font-family: 'Montserrat', sans-serif;
 }
 /*end colorM*/
+#header4-9 .display-1 {
+  font-weight: 700;
+}
+#header4-9 .lead {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#header4-9 .mbr-section-title {
+  font-size: 80px;
+}
+#header4-9 .mbr-section-subtitle {
+  font-size: 36px;
+}
 #menu-1 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -785,24 +799,8 @@ blockquote {
 #menu-1 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#header2-4 .mbr-section-title,
-#header2-4 .mbr-section-subtitle,
-#header2-4 .btn {
-  color: #fff;
-}
-#header2-4 .mbr-section-title {
-  font-weight: 700;
-}
-#header7-7 .mbr-section-subtitle {
-  text-transform: uppercase;
-  color: #9fa3a7;
-}
-#header7-7 .mbr-section-text {
-  color: #9fa3a7;
-}
-#header7-7 .mbr-section-title {
-  color: #242424;
-  font-weight: bold;
+#features9-5 .mbr-section-title {
+  font-size: 80px;
 }
 #testimonials1-6 .card-block p {
   font-size: 15px;
