@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "video.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 112,
+    "uniqCompNum": 117,
     "versionPublish": "4.6.6",
     "theme": {
       "name": "mobirise4",
@@ -31,13 +31,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#f8f8f8",
         "#e1c995",
         "#c69831",
         "#f2e6c6",
         "#f1c40f",
         "#6ebbbb",
-        "#b61b00",
-        "#f52056"
+        "#b61b00"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -717,77 +717,120 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    往届选手感言</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qNp0yqiYaB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-38"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            },
-            ".media-container-row": {
-              "-webkit-flex-wrap": "wrap",
-              "-ms-flex-wrap": "wrap",
-              "flex-wrap": "wrap"
-            },
-            ".mbr-text": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".mbr-author-desc": {
-              "display": "block",
-              "color": "#767676"
+            ".testimonial-text": {
+              "font-style": "italic",
+              "color": "#676767",
+              "font-weight": "300",
+              "text-align": "right"
             },
             ".mbr-author-name": {
+              "font-weight": "bold",
+              "color": "#232"
+            },
+            ".mbr-author-desc": {
               "color": "#767676"
-            },
-            ".mbr-testimonial": {
-              ".panel-item": {
-                "background-color": "@cardsColor"
-              },
-              ".card-block": {
-                "-webkit-flex-grow": "0",
-                "flex-grow": "0",
-                "padding": "2.4rem 2.4rem 0 2.4rem",
-                ".testimonial-photo": {
-                  "display": "inline-block",
-                  "width": "120px",
-                  "height": "120px",
-                  "margin-bottom": "1.6rem",
-                  "overflow": "hidden",
-                  "border-radius": "50%",
-                  "img": {
-                    "width": "100%",
-                    "min-width": "100%",
-                    "min-height": "100%"
-                  }
-                }
-              },
-              ".card-footer": {
-                "padding-bottom": "2.4rem",
-                "border-top": "0",
-                "padding-top": "1rem",
-                "word-wrap": "break-word",
-                "word-break": "break-word",
-                "background": "none"
-              }
-            },
-            "@media (max-width: 300px)": {
-              ".testimonial-photo": {
-                "width": "100% !important",
-                "height": "auto !important"
-              }
             }
           },
-          "_name": "testimonials1",
-          "_customHTML": "<section class=\"testimonials1\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n     <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Images\" name=\"showImages\">\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Biography\" name=\"showBio\" checked>\n\n        <input type=\"color\" title=\"Cards Color\" name=\"cardsColor\" value=\"#ffffff\">\n        <select title=\"Cards Count\" name=\"TestimonialsCount\">\n         <option value=\"1\">1</option>\n         <option value=\"2\">2</option>\n         <option value=\"3\" selected>3</option>\n         <option value=\"4\">4</option>\n         <option value=\"5\">5</option>\n         <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\"> \n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 align-center\">\n                <h2 class=\"pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    往届选手感言</h2>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    This theme is based on Bootstrap 4 - most powerful mobile first framework\n                </h3>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"container pt-3 mt-2\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face1.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           “我现在回国就职于一家法国的独立广告代理商Fred &amp; Farid。虽然广告与翻译属于不同行业，但一年多前参加比赛所积累下的在项目管理、时间掌控和多职能部门协调分工方面的经验毫无障碍地转化到了我现在的工作中。现在回想起来，那次比赛就像是我踏入职业路程前的trial run一样！”\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             Liki\n                        </div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               美国威斯康星大学修辞专业\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>1\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face2.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           “CAT大赛让我发现了技术传播这个新世界，很高兴现在的我仍然在这个新世界中探索。”\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>张同学 \n</div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               北京外国语大学\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>2\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face3.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           “很有幸能参加第三届计算机辅助翻译与技术传播大赛。这次比赛不仅让我结交了新朋友，收获了友谊，还为我开启了技术写作的大门。希望有更多的童鞋来参加比赛～祝愿比赛越办越好！”\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             李同学</div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>就读于北京大学数字艺术与技术传播系并在科多思担任技术写作实习生\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>3\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face2.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae.\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             John Smith\n                        </div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>4\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face2.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae.\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             John Smith\n                        </div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>5\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face2.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae.\n                    </p></div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             John Smith\n                        </div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>   \n</section>",
-          "_cid": "qNoIv0sduf",
-          "_anchor": "testimonials1-2v",
+          "_name": "testimonials3",
+          "_customHTML": "<section class=\"testimonials3\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"10\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\"> \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                   “我现在回国就职于一家法国的独立广告代理商Fred &amp; Farid。虽然广告与翻译属于不同行业，但一年多前参加比赛所积累下的在项目管理、时间掌控和多职能部门协调分工方面的经验毫无障碍地转化到了我现在的工作中。现在回想起来，那次比赛就像是我踏入职业路程前的trial run一样！”\n                </p>\n                <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">---Liki\n                </p>\n                <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">美国威斯康星大学修辞专业\n                </p>\n            </div>\n\n            <div class=\"mbr-figure pl-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/-13x10.png\" alt title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qNoYN4KEsB",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "testimonials3-35"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".testimonial-text": {
+              "font-style": "italic",
+              "color": "#676767",
+              "font-weight": "300",
+              "text-align": "right"
+            },
+            ".mbr-author-name": {
+              "font-weight": "bold",
+              "color": "#232",
+              "text-align": "left"
+            },
+            ".mbr-author-desc": {
+              "color": "#767676",
+              "text-align": "left"
+            }
+          },
+          "_name": "testimonials3",
+          "_customHTML": "<section class=\"testimonials3\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"10\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\"> \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">“很有幸能参加第三届计算机辅助翻译与技术传播大赛。这次比赛不仅让我结交了新朋友，收获了友谊，还为我开启了技术写作的大门。希望有更多的童鞋来参加比赛～祝愿比赛越办越好！”\n                </p>\n                <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">---李同学\n                </p>\n                <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                   就读于北京大学数字艺术与技术传播系并在科多思担任技术写作实习生\n                </p>\n            </div>\n\n            <div class=\"mbr-figure pl-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/-13x10.png\" alt title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qNoZBzUpAG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "testimonials3-36"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".testimonial-text": {
+              "font-style": "italic",
+              "color": "#676767",
+              "font-weight": "300",
+              "text-align": "right"
+            },
+            ".mbr-author-name": {
+              "font-weight": "bold",
+              "color": "#232"
+            },
+            ".mbr-author-desc": {
+              "color": "#767676"
+            }
+          },
+          "_name": "testimonials3",
+          "_customHTML": "<section class=\"testimonials3\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"10\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\"> \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                   “毕业之后我加入了迪拜国际纯血马实习项目。目前在英国接受专业的课程培训和领导力技能培养。CAT比赛那会专业课和社团都忙得不可开交，而我当时的团队却仍幸运的取得了好成绩。值得感谢的是大学期间接受的专业CAT课程培训和在MOOC上的自学内容，帮助很大。通过比赛也锻炼了自己时间管理和项目策划的能力，还收获了许多志同道合的好伙伴们。”\n                </p>\n                <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">---周同学 \n                </p>\n                <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                   毕业于中山大学翻译系 \n                </p>\n            </div>\n\n            <div class=\"mbr-figure pl-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/-13x10.png\" alt title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qNoZC4u6s0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "testimonials3-37"
         },
         {
           "_styles": {
@@ -1569,11 +1612,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    往届试题</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qNoPrxheAb",
+          "_anchor": "content4-33",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-33"
+          "_params": {}
         },
         {
           "_styles": {
@@ -1587,11 +1630,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>第五届计算机辅助翻译与技术传播大赛</b></p><p><b><br></b></p><p><b>第一部分 英汉互译（二选一）\n</b></p><p><b>英译汉\n</b></p><p><b>Daylight Saving Time: Why Does It Exist?\n</b></p><p>The reason the United States and many other countries, mostly in the West, shift to daylight saving time is contentious and confusing, and some of the more popular explanations are not grounded in reality. (It isn’t for farmers, as you may have learned in school.)\n</p><p>The general concept is to move an hour of sunlight from the early morning, when many would sleep through it, to the evening, when you could most likely do more with the light.\n</p><p>“For most people, an extra hour of daylight in the evening after work or after school is much more usable than the hour of daylight in the morning,” said David Prerau, the author of “Seize the Daylight.”\n</p><p>The idea was originally rooted in saving candle wax, not electricity.\n</p><p>Historians have traced the notion back to Benjamin Franklin, who realized he was sleeping through some daylight hours while visiting Paris in the 18th century. He suggested French officials shoot cannons at sunrise to jolt people out of bed, optimizing the amount of hours they spent awake when it’s light out. That way, they could cut down on using candles to light their homes while awake, Mr. Prerau said.\n</p><p>But the first idea to move the clock hands came from William Willett, who unsuccessfully proposed it to the British Parliament in 1908. Germany, however, seeking cost savings during World War I, heard the idea and enacted it in 1915. Three weeks later, the British followed, and other world powers were close behind, including the United States in 1918.\n</p><p>Reducing energy consumption is still often cited as a chief driver of daylight saving time, but experts can’t agree on whether that is actually a result. There have been many conflicting studies.\n</p><p>Mr. Downing said the idea was originally based on having “an eight-hour economy,” but electricity demand is no longer based on sunrises and sunsets — not when there’s air conditioning.\n</p><p><b>汉译英\n</b></p><p><b>朋友与寂寞\n</b></p><p>朋友实在是一个笼统的词。一般人所说的朋友，多指熟悉到了一定程度的熟人，遇到需要帮忙的事情，彼此间是求得上的。关于这类朋友，前贤常予苛评。克雷洛夫说：“当你遇到困难时，把朋友们找来，你会得到各种好的忠告。可是，只要你一开口提到实际的援助，你最好的朋友也装聋作哑了。”\n</p><p>马克·吐温说：“神圣的友谊如此甜蜜、忠贞、稳固而长久，以致能伴随人的整个一生——如果不要求借钱的话。”亚里斯多德说得更干脆：“啊，我的朋友，世上并不存在朋友。”我不愿意把人心想象得这么坏，事实上也没有这么坏，我相信只要我的请求是对方力所能及的，我的大多数熟人一定会酌情相助。只是我这个人比较知趣，非到万不得已之时决不愿求人，而真正万不得已的情形是很少的。为了图清静，我也不喜欢把精力耗费在礼尚往来的应酬上。所以，我和一般人的交往常常难以达到所需要的熟悉程度，够不上在这个意义上称作朋友。\n</p><p>我心目中的朋友，既非泛泛之交的熟人，也不必是心心相印的恋人，程度当在两者之间。在这个世界上也有些这样的人，不见面时会互相惦记，见了面能感觉到一种默契，在一起度过一段愉快的时光，他们便是我心目中的朋友了。\n</p><p><br></p><p><b>第二部分：技术传播\n</b></p><p>阅读材料，并按要求写作。\n</p><p>材料一\n</p><p>买了部苹果手机却没有使用手册 南京果粉状告苹果公司索赔1元\n</p><p>南京果粉杨先生状告苹果公司索赔1元案，近日在秦淮法院开庭审理。庭审后，苹果电脑贸易(上海)有限公司与杨先生达成了和解协议，苹果公司表示，会对苹果手机使用手册的提供方式问题做进一步完善。\n</p><p>——南京晨报网 2015年8月25日\n</p><p>&nbsp;（注：“标准”为GB5296.1-2012《消费品使用说明总则》）\n</p><p>材料二\t\n</p><p>2015-11-27亚心网：爸妈要远游 暖心女儿手绘“微信说明书”\n</p><p>文档作为产品和市场接轨的桥梁，为产品的在市场上赢得客户的青睐，以及产品的长期发展做出了良好的保障。但是生活中仍有许多产品的用户手册不符合规范，进而影响用户体验，甚至引发产品故障或伤亡事故。请你找到日常生活中令你体验不佳的产品说明，具体指出存在的问题，并尝试进行修正。\n</p><p>请提交：\n</p><p>1.\t提交3份你认为存在问题的产品说明，中英文皆可。\n</p><p>要求：</p><p>①给出有问题的产品说明（实物照片或文档截图均可）\n</p><p>②具体说明存在的问题\n</p><p>③提出自己的修改建议\n</p><p>2.\t请选取日常生活中任一物品（如台灯、手表、运动手环等），为其写一份简单的中文产品说明书，不必面面俱到，可侧重于某一特点。\n</p><p>要求：①请将所写物品图片放置作品前\n</p><p>②1500字以内\n</p><p>③至多提交一份作品，若提交多份，则仅对第一份进行评分\n</p><p>注意：\n</p><p>1)\t注意排版清晰美观，不拘泥于原有形式，最大程度实现信息可获取。\n</p><p>2)\t选手作品若为Word文档，为保证布局稳定，请自行转为PDF格式文件。\n</p><p>3)\t本次大赛鼓励使用多种信息呈现手段，其他文件格式不限，如小视频，PPT，手绘等等，直接附件形式提交邮箱即可。\n</p><p><br></p><p><b>第六届计算机辅助翻译与技术传播大赛初赛试题</b></p><p><b>英译汉（30分）\n</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A Prehistoric Killer, Buried In Muck（Excerpt）\n</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b>&nbsp;On a sunny January morning outside Richmond Hill, Georgia, Bill Eberlein, a fifty-two-year-old former I.T. specialist, went diving in a local creek. He wore a wetsuit, a drysuit, a dive hood, and an orange kayaking helmet affixed with a waterproof headlamp, whose ten thousand lumens would afford him six inches of visibility under the murky water. Eberlein—soft-spoken, blue-eyed, big-bellied, with curly dark hair and a long face—had worked this stretch of creek bed before. He has devoted the past eight years of his life to hunting, collecting, and selling the fossilized teeth of the Megalodon, an immense species of prehistoric shark. His destination, a depression forty feet down into the flowing ochreous void, had in the past proved a honeypot. Now, as usual, he would have to search it using only his gloved hands. “Every once in a while you grab something and it moves,” he told me, with characteristic blasé.\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When picturing the Megalodon, whose name in Greek means “big tooth,” it is easiest to imagine a modern great white, only four or five times more great. Megs, as collectors call them, could grow as long as sixty feet, making them the largest known sharks in history. They lived between twenty-three and 2.6 million years ago, well after the dinosaurs and well before humans. Their distribution was global—teeth have been found on nearly every continent. But, beyond that, according to Kenshu Shimada, a professor of paleobiology at DePaul University, “There are a lot of things that we still don’t know.” Sharks’ skeletons are made of cartilage, which degrades easily, so questions like what the Megalodon ate, what, precisely, it looked like, and why it went extinct are difficult to answer. Its teeth, fortunately, age well, and are common along low-country coasts from North Carolina to Florida.\n</p><p>文章选自：New Yorker http://www.newyorker.com/tech/elements/a-prehistoric-killer-buried-in-muck\n</p><p><b>\n</b></p><p><b>汉译英（30分）\n</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 重赏之下必有勇夫？\n</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b>人们从里约奥运会的奖金排行榜上，似乎看到了大国“抠门”，小国“慷慨”的独特格局。这其中原因究竟为何？事实上，奥运金牌也是发展中国家彰显其国力，提升民族自信心的重要筹码。一个体育弱国想要在奥运上取得好成绩，而国家经济发展水平又还不错的话，往往会采取高额奖金的激励机制。为了使运动员更有冲劲去拼一款金牌，缩小与体育大国的距离，最直接的办法就是加大奖励措施。新加坡就是一个典型的里约之前尚未实现奥运金牌“零突破”的国家，依照新加坡目前强大的经济实力，能够开出如此高额的奖金也就不足为奇。\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;和新加坡一样，在该排行榜上排名靠前的基本上都属于是金牌小国。新加坡的奥运参赛史始于1948年的伦敦，迄今为止总共获得了4枚奖牌，其中两枚来自2012年伦敦奥运会。在本届奥运会上，印尼奥运金牌奖金比上届奥运翻了五倍，原因是他们在伦敦奥运会上一金未得，创下20年来最差战绩。\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;事实证明，“重赏之下必有勇夫”的策略已然奏效，新加坡游泳选手斯库林在本届奥运100米蝶泳比赛中击败菲尔普斯获得冠军，并打破了奥运会纪录，为新加坡实现了奥运金牌“零的突破”。这枚金牌无疑能让斯库林“名利双收”，一举成为国家的英雄。\n</p><p>\n</p><p>文章选自：南方周末《金牌越多，赚的越少？》 http://www.infzm.com/content/11924\n</p><p>\n</p><p><b>技术写作（40分）\n</b></p><p><b>请阅读材料，并按要求写作。\n</b></p><p><b>材料一\n</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; </b>微信小程序简称CX，是一种不需要下载安装即可使用的应用。微信小程序可以帮助开发者快速的开发小程序，微信小程序可以在微信内被便捷地获取和传播；是一种不需要下载安装即可使用的应用小程序，和原有的三种公众号是并行的体系。\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; 2016年1月11日，微信之父张小龙公开亮相，解读了微信的四大价值观。张小龙指出，越来越多产品通过公众号来做，因为这里开发、获取用户和传播成本更低。拆分出来的服务号并没有提供更好的服务，所以微信内部正在研究新的形态，叫「微信小程序」。\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; 2016年9月21日，微信小程序正式开启内测。在微信生态下，触手可及、用完即走的微信小程序引起广泛关注。腾讯云正式上线微信小程序解决方案，提供小程序在云端服务器的技术方案。\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; 2017年1月9日，小程序正式上线。\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ——材料来源于互动百科\n</p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; \n</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; 材料二Minimalism\n</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; </b>The Minimalist approach to technical documentation began around 1982 with the work of John Carroll and his colleagues at IBM.&nbsp;\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; Minimalism is a design philosophy. Minimalism is a use-centered approach because its priority lies in supporting usage of an application. It is also a user-centered approach because it adapts to the audience as much as possible. The principles and heuristics of minimalism are not rules to be followed blindly or rigorously; they “merely” afford better designs. In addition, they work well only in combination with a thorough treatment of basic design issues such as context, audience and task analyses.&nbsp;\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; Minimalism helps reduce training time while increasing learning. Research generally reports a reduction of training time of around 30% and a learning gain of at least 25% compared to other designs. In addition, minimalism reduces production cost because the documentation is always considerably shorter than the original.\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; Companies such as IBM, Hewlett Packard, Apple Macintosh, Claris Corporation, Lucent Technologies and Microsoft are applying minimalism for developing products like manuals and online help.&nbsp;\n</p><p>\n</p><p>&nbsp;——材料来源于荷兰屯特大学副教授Hans van der Meij的文章http://users.edte.utwente.nl/meij/minimalism.htm\n</p><p><b>\n</b></p><p>任务：请选取微信小程序中的任一程序，为其分别制作一份中文版和英文版使用指南，文件格式不限，比如文本、网页、音频、视频等。此部分作答可不使用大赛提供的答题纸。（中文版和英文版各占20分）\n</p><p>要求：\n</p><p>1. 尽量挖掘小程序的功能与玩法。\n</p><p>2. 尽量采用材料二的原则。\n</p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qNoPpfsRMd",
+          "_anchor": "content1-32",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-32"
+          "_params": {}
         },
         {
           "_name": "footer1",
@@ -2104,11 +2147,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    宣讲视频\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qNoOSrHijb",
+          "_anchor": "content4-31",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-31"
+          "_params": {}
         },
         {
           "_styles": {
@@ -2135,11 +2178,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"http://v.youku.com/v_show/id_XMjY4OTc1OTE5Ng==?spm=a2h3j.8428770.3416059.1&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "qNoOjee9es",
+          "_anchor": "video3-2z",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video3-2z"
+          "_params": {}
         },
         {
           "_name": "footer1",
