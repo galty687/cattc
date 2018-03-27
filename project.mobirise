@@ -29,7 +29,7 @@
     "cookiesAlert": "",
     "siteUrl": "undefined",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 28,
+    "uniqCompNum": 29,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png"
   },
@@ -235,7 +235,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "计算机辅助翻译与技术传播大赛（简称CATTC）由北京大学软件与微电子学院，联合中国标准化协会技术传播服务委员会和中国翻译协会本地化服务委员会共同举办，北京大学翻译协会、北京大学技术传播协会联合承办。本系列大赛每年度举办一次，接受海内外普通高等学校在读或毕业两年以内的本科生及硕士研究生报名，至今已成功举办六届。",
+          "text": "计算机辅助翻译与技术传播大赛（简称CATTC）由北京大学软件与微电子学院，联合中国标准化协会技术传播服务委员会和中国翻译协会本地化服务委员会共同举办，北京大学翻译协会、北京大学技术传播协会联合承办。<div>大赛充分利用北大技术传播系多年来累积的经验与资源，以推广本地化技术及技术传播理念为宗旨，为有志于从事语言服务行业的在校学生和职场人士提供一个了解行业信息、互相交流的平台。各位选手在参与比赛的同时，也能学会更多本地化和技术传播的知识技术，更加深刻地理解语言服务行业，从而促进自身的发展。</div><div>本系列大赛每年度举办一次，接受海内外普通高等学校在读或毕业两年以内的本科生及硕士研究生报名，至今已成功举办六届。</div>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -443,16 +443,20 @@
         },
         {
           "_styles": {
-            ".mbr-section-text": {
+            ".mbr-section-subtitle, .mbr-section-text": {
               "color": "#fff"
             },
-            "P": {
-              "color": "#eeeeee"
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
             }
           },
           "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -462,13 +466,48 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 CATTC",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku2-142x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a>、<br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协、<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer2",
-          "_anchor": "footer2-h"
+          "_name": "footer1",
+          "_anchor": "footer1-s"
         }
       ]
     },

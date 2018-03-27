@@ -828,11 +828,13 @@ blockquote {
 #testimonials1-6 .card-footer > small {
   font-size: 12px;
 }
-#footer2-h .mbr-section-text {
+#footer1-s .mbr-section-subtitle,
+#footer1-s .mbr-section-text {
   color: #fff;
 }
-#footer2-h P {
-  color: #eeeeee;
+#footer1-s .mbr-section-subtitle {
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 #menu-j .hide-buttons .nav-btn {
   display: none !important;
