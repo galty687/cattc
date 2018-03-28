@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 
 
 
@@ -730,7 +731,7 @@ blockquote {
 #header4-9 .mbr-section-title {
   font-size: 72px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arvo', serif;
 }
 #header4-9 .mbr-section-subtitle {
   font-size: 36px;
@@ -811,6 +812,11 @@ blockquote {
 }
 #content2-d BLOCKQUOTE {
   font-size: 16px;
+  color: #000000;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+#content2-d DIV {
+  color: #000000;
 }
 #features9-5 .mbr-section-title {
   font-size: 80px;
@@ -830,6 +836,9 @@ blockquote {
 }
 #testimonials1-6 .card-footer > small {
   font-size: 12px;
+}
+#testimonials1-6 .card-footer > div {
+  font-family: 'Montserrat', sans-serif;
 }
 #footer1-s .mbr-section-subtitle,
 #footer1-s .mbr-section-text {
@@ -991,6 +1000,9 @@ blockquote {
 #menu-16 .link[aria-expanded="true"],
 #menu-16 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
+}
+#content1-1a P {
+  color: #000000;
 }
 #footer1-18 .mbr-section-subtitle,
 #footer1-18 .mbr-section-text {
@@ -1160,4 +1172,17 @@ blockquote {
 #footer1-1e .mbr-section-subtitle {
   margin-bottom: 20px;
   margin-top: 0;
+}
+body,
+input,
+textarea,
+.mbr-section-text,
+.mbr-section-title,
+.mbr-section-subtitle,
+.lead,
+.mbr-company .list-group-text,
+.panel-body,
+#header4-9
+{
+  font-family: "Montserrat",Arial,'宋体','黑体',sans-serif;
 }
