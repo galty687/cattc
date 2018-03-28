@@ -1173,6 +1173,7 @@ blockquote {
   margin-bottom: 20px;
   margin-top: 0;
 }
+
 body,
 input,
 textarea,
@@ -1185,4 +1186,15 @@ textarea,
 #header4-9
 {
   font-family: "Montserrat",Arial,'宋体','黑体',sans-serif;
+}
+
+@media screen and (max-device-width: 600px){
+    #header4-9,
+    .display-1,
+    .mbr-section-title{
+        font-size: 40px!important;
+    }
+    .mbr-section-full{
+        height:80vh;
+    }
 }
