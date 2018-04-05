@@ -1280,3 +1280,7 @@ textarea,
 video{
     width:100%;
 }
+
+#videotitle{
+    font-size:24px;
+}
