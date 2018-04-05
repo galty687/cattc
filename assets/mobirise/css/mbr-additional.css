@@ -1198,3 +1198,6 @@ textarea,
         height:80vh;
     }
 }
+video{
+    width:100%;
+}
