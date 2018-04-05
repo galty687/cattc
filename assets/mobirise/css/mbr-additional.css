@@ -813,7 +813,6 @@ blockquote {
 #content2-d BLOCKQUOTE {
   font-size: 16px;
   color: #000000;
-  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 #content2-d DIV {
   color: #000000;
@@ -1173,6 +1172,85 @@ blockquote {
   margin-bottom: 20px;
   margin-top: 0;
 }
+#menu-1f .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-1f .navbar-caption {
+  color: #ffffff;
+}
+#menu-1f .navbar-toggler {
+  color: #ffffff;
+}
+#menu-1f .close-icon::before,
+#menu-1f .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-1f .link,
+#menu-1f .dropdown-item {
+  color: #ffffff;
+}
+#menu-1f .link {
+  font-size: 0.875rem;
+}
+#menu-1f .dropdown-item,
+#menu-1f .nav-dropdown-sm .link {
+  font-size: 0.948rem;
+}
+#menu-1f .link:hover,
+#menu-1f .link:focus {
+  color: #f39c12;
+}
+#menu-1f .dropdown-item:hover::before,
+#menu-1f .dropdown-item:focus::before {
+  background: #f39c12;
+}
+#menu-1f .dropdown-item:hover,
+#menu-1f .dropdown-item:focus {
+  color: #ffffff;
+}
+#menu-1f .link[aria-expanded="true"],
+#menu-1f .dropdown-menu {
+  background: #1a242f;
+}
+#menu-1f .nav-dropdown-sm .link:focus,
+#menu-1f .nav-dropdown-sm .link:hover,
+#menu-1f .nav-dropdown-sm .dropdown-item:focus,
+#menu-1f .nav-dropdown-sm .dropdown-item:hover {
+  background: #273646!important;
+}
+#menu-1f .navbar,
+#menu-1f .nav-dropdown-sm,
+#menu-1f .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-1f .nav-dropdown-sm .dropdown-menu {
+  background: #2c3e50;
+}
+#menu-1f .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-1f .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-1f .bg-color.transparent.opened .link:hover,
+#menu-1f .bg-color.transparent.opened .link:focus {
+  color: #f39c12;
+}
+#menu-1f .link[aria-expanded="true"],
+#menu-1f .dropdown-item[aria-expanded="true"] {
+  color: #f39c12!important;
+}
+#content1-1h P {
+  color: #000000;
+  text-align: center;
+}
+#footer1-1i .mbr-section-subtitle,
+#footer1-1i .mbr-section-text {
+  color: #fff;
+}
+#footer1-1i .mbr-section-subtitle {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
 
 body,
 input,
@@ -1198,6 +1276,7 @@ textarea,
         height:80vh;
     }
 }
+
 video{
     width:100%;
 }
