@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "index.html",
+    "currentPage": "sponsors.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -20,23 +20,29 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#169581"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "",
-    "cookiesAlert": "",
-    "siteUrl": "undefined",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-45957014-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-45957014-1');\r\n</script>\r\n\r\n",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "siteUrl": "",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 11,
-    "versionPublish": "4.6.6"
+    "uniqCompNum": 81,
+    "versionPublish": "4.7.0",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcherAuto": "on"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "全国计算机辅助翻译与技术传播大赛",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -54,7 +60,10 @@
               "margin-bottom": "0"
             },
             ".mbr-section-title": {
-              "font-size": "72px"
+              "font-size": "72px",
+              "text-align": "center",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
             },
             ".mbr-section-subtitle": {
               "font-size": "36px"
@@ -84,7 +93,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/cattc-8-550x308.jpg",
+              "src": "@PROJECT_PATH@/assets/images/group-photo-1400x786.jpg",
               "link": "",
               "alt": "",
               "title": "第六届大赛合影"
@@ -104,7 +113,7 @@
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "计算机辅助翻译与<br>技术传播大赛",
           "text": "第七届",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">立即报名</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"http://cn.mikecrm.com/yuwxSun\" data-toolbar=\"-mbrBtnMove\">立即报名</a> ",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -114,103 +123,62 @@
         },
         {
           "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.875rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
-            },
-            ".link:hover, .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
-            },
-            ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#ffffff"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1a242f"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#273646!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2c3e50"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f39c12!important"
+            "H3": {
+              "font-size": "60px"
             }
           },
           "_params": {
-            "logo": true,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "bgColor": "#2c3e50",
-            "fontSize": 0.875,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "showMeta": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">报名</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">宣讲</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
+          "title": "大赛简介",
+          "meta": "By <b>John Smith</b> posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-e"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "text": "计算机辅助翻译与技术传播大赛（简称CATTC）由北京大学软件与微电子学院，联合中国标准化协会技术传播服务委员会和中国翻译协会本地化服务委员会共同举办，北京大学翻译协会、北京大学技术传播协会联合承办。<div>大赛充分利用北大技术传播系多年来累积的经验与资源，以推广本地化技术及技术传播理念为宗旨，为有志于从事语言服务行业的在校学生和职场人士提供一个了解行业信息、互相交流的平台。各位选手在参与比赛的同时，也能学会更多本地化和技术传播的知识技术，更加深刻地理解语言服务行业，从而促进自身的发展。</div><div>本系列大赛每年度举办一次，接受海内外普通高等学校在读或毕业两年以内的本科生及硕士研究生报名，至今已成功举办六届。</div>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "menu",
-          "_anchor": "menu-1"
+          "_name": "content2",
+          "_anchor": "content2-d",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "16px",
+              "color": "#000000"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          }
         },
         {
-          "_styles": {},
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_params": {
             "showHeader": true,
             "showHeaderText": false,
             "showImages": true,
             "showTitles": true,
-            "tabs": "3",
+            "tabs": "2",
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -226,15 +194,15 @@
             "overlayColor": "#fff",
             "overlayOpacity": 0.9
           },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "大赛主办单位",
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "title": "大赛组织",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque mollitia ipsa ullam, voluptas beatae qui eligendi eveniet necessitatibus perferendis exercitationem fuga iure voluptates voluptatibus laborum sit est. Odit quas facilis tenetur, exercitationem nesciunt. Doloremque voluptatibus officia quod, nostrum tempore quos hic quae molestias! Vero iste itaque cupiditate a nobis, soluta.",
-          "title11": "北京大学软件与微电子学院",
-          "title12": "北京大学翻译协会",
-          "title13": "北京大学技术传播协会",
-          "title21": "BOOTSTRAP BUILDER",
-          "title22": "BOOTSTRAP BUILDER",
-          "title23": "BOOTSTRAP BUILDER",
+          "title11": "中国标准化协会技术传播服务委员会",
+          "title12": "中国翻译协会本地化服务委员会",
+          "title13": "北京大学软件与微电子学院",
+          "title21": "北京大学翻译协会",
+          "title22": "北京大学技术传播协会",
+          "title23": "北大软微学院数字艺术与技术传播系",
           "title31": "BOOST YOUR RANKING",
           "title32": "BOOST YOUR RANKING",
           "title33": "BOOST YOUR RANKING",
@@ -244,71 +212,77 @@
           "title61": "TRENDY WEBSITE BLOCKS",
           "title62": "TRENDY WEBSITE BLOCKS",
           "title63": "TRENDY WEBSITE BLOCKS",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs1-a\" aria-expanded=\"true\">北京大学</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs1-a\" aria-expanded=\"false\">中国标准化协会</a></li><li class=\"nav-item nav-item-last\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs1-a\" aria-expanded=\"false\">中国翻译协会</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs1-a\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs1-a\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs1-a\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs1-1k\" aria-expanded=\"false\">主办方</a></li><li class=\"nav-item nav-item-last\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs1-1k\" aria-expanded=\"true\">承办方</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs1-1k\">Animated</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs1-1k\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs1-1k\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs1-1k\">Beautiful</a></li>",
           "media11": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "linegraph",
+              "linkInNewWindow": false,
+              "name": "star",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "media12": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "attachment",
+              "linkInNewWindow": false,
+              "name": "star",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "media13": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "paperclip",
+              "linkInNewWindow": false,
+              "name": "star",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "media21": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "upload",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "media22": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "genius",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "media23": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "global",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "media31": {
@@ -443,12 +417,12 @@
               "family": "et-line"
             }
           },
-          "text11": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
-          "text12": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
-          "text13": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
-          "text21": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
-          "text22": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
-          "text23": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
+          "text11": "中国标准化协会技术传播服务委员会创建于2015年，委员来自企业、科研院所、专业服务公司等，技传委受中国标准化协会领导，中国标准化协会技术传播研究中心承担秘书处工作，负责处理日常工作并对外开展相关活动和业务。",
+          "text12": "中国翻译协会本地化服务委员会成立于2009年，是全国行业组织中国翻译协会的分支机构，由加入中国翻译协会的本地化服务企业、语言服务购买企业、工具开发商、教育培训机构和国际化与本地化行业专家学者组成。",
+          "text13": "中国最好的软件与微电子学院之一，是按新模式建立、新机制运行的北京大学直属学院。开设国内首个计算机辅助翻译硕士方向，为市场培养了大量现代语言服务人才。同事也率先开设了多门技术写作课程，增加了学生职业竞争力。",
+          "text21": "北京大学翻译协会（Translation Association of Peking University）于2007年在北京大学软件与微电子学院注册成立，2009年申请成为校级社团。协会宗旨是成立一个开放性、非营利的校内社团组织，开展翻译实践交流活动，为翻译行业健康可持续发展贡献力量。",
+          "text22": "北大软微技术传播协会成立于2012年，是国内第一个致力于技术传播的院校协会。协会旨在普及技术传播知识，为学生提供与行业接触的平台、锻炼自身能力的机会。同时为技术传播行业提供平台，促进行业内人士的交流。作为高校与行业的纽带，将理论与实践紧密联合，促进技术传播行业发展。",
+          "text23": "数字艺术与技术传播系的前身是数字艺术系和语言信息工程系，两系于2017年合并。主要研究领域侧重在技术与艺术、语言和传播学的结合，主要特色为文理结合，跨学科交叉融合。目前有，计算机辅助翻译、技术传播（筹），数字艺术，智能产品设计、CG动画等方向。",
           "text31": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
           "text32": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
           "text33": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
@@ -463,17 +437,110 @@
           "text63": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
           "alias": "colorm/components",
           "_tags": [
-            "Theme"
+            "主题"
           ],
           "_name": "tabs1",
-          "_anchor": "tabs1-a"
+          "_anchor": "tabs1-1k"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1"
         },
         {
           "_params": {
             "showTitle": true,
-            "showSubtitle": true,
+            "showSubtitle": false,
             "showDates": true,
-            "blocks": "5",
+            "blocks": "4",
             "cardsColor": "#f2e6c6",
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -493,9 +560,9 @@
           "mainTitle": "大赛日程安排",
           "mainSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
           "title1": "1. 初赛",
-          "title2": "2. Responsive Design",
-          "title3": "3. Smart Watch",
-          "title4": "4. Design out of the box",
+          "title2": "2. 公布初赛成绩和决赛名单",
+          "title3": "3. 决赛准备",
+          "title4": "4. 决赛",
           "title5": "5. Awesome Reports",
           "title6": "6. Multi Homepages",
           "title7": "7. Responsive Design",
@@ -504,10 +571,10 @@
           "title10": "10. Awesome Reports",
           "title11": "11. Design out of the box",
           "title12": "12. Awesome Reports",
-          "date1": "2018年4月25日",
-          "date2": "2 Ferbuary 2016",
-          "date3": "3 March 2016",
-          "date4": "4 April 2016",
+          "date1": "2018年3月30日-4月20日",
+          "date2": "2018年4月28日",
+          "date3": "2018年4月28日至6月2日",
+          "date4": "2018年6月3日",
           "date5": "5 May 2016",
           "date6": "6 June 2016",
           "date7": "7 July 2016",
@@ -516,10 +583,10 @@
           "date10": "10 October 2016",
           "date11": "11 November 2016",
           "date12": "12 December 2016",
-          "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text1": "翻译：英译汉、汉译英短文各一篇\n<br>技术传播：寻求某个技术传播案例的解决方案，形式不限。<br><br><a href=\"question.html\">点此查看试题</a>",
+          "text2": "",
+          "text3": "决赛选手将在5月接受培训，并以小组为单位准备决赛。",
+          "text4": "在北京大学进行最后的决赛答辩并进行颁奖典礼。",
           "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
@@ -544,12 +611,29 @@
           "_styles": {
             ".card-block p": {
               "font-size": "15px"
+            },
+            ".card-block": {
+              "font-size": "14px",
+              "color": "#000000"
+            },
+            ".card-footer > small SPAN": {
+              "font-size": "12px"
+            },
+            ".card-block P": {
+              "color": "#000000"
+            },
+            ".card-footer > small": {
+              "font-size": "12px"
+            },
+            ".card-footer > div": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_params": {
             "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
+            "showSubtitle": false,
+            "showImages": false,
             "showName": true,
             "showBio": true,
             "autoplay": true,
@@ -573,9 +657,9 @@
             "slides": [
               {
                 "active": true,
-                "text": "<p>“A major turning point in the history of early philosophical science was the controversial”</p>",
-                "authorName": "John Smith",
-                "authorBio": "DEVELOPER",
+                "text": "<p>“很有幸能参加第三届计算机辅助翻译与技术传播大赛。这次比赛不仅让我结交了新朋友，收获了友谊，还为我开启了技术写作的大门。希望有更多的童鞋来参加比赛～祝愿比赛越办越好！”&nbsp;</p>",
+                "authorName": "李同学 ",
+                "authorBio": "科多思担任技术写作实习生 ",
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face1.jpg",
@@ -589,9 +673,9 @@
               },
               {
                 "active": false,
-                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
-                "authorName": "Abanoub S.",
-                "authorBio": "USER",
+                "text": "<p>“毕业之后我加入了迪拜国际纯血马实习项目。目前在英国接受专业的课程培训和领导力技能培养。CAT比赛那会专业课和社团都忙得不可开交，而我当时的团队却仍幸运的取得了好成绩。值得感谢的是大学期间接受的专业CAT课程培训和在MOOC上的自学内容，帮助很大。通过比赛也锻炼了自己时间管理和项目策划的能力，还收获了许多志同道合的好伙伴们。”&nbsp;</p>",
+                "authorName": "周同学&nbsp;",
+                "authorBio": "中山大学翻译系",
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face2.jpg",
@@ -605,9 +689,9 @@
               },
               {
                 "active": false,
-                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
-                "authorName": "Suffian A.",
-                "authorBio": "USER",
+                "text": "<p>“我如今在北京市公安局天安门地区分局工作，经常遇到外事活动可以发挥专业所长。参加CAT大赛已经两年了，当年和队友们熬夜讨论推敲的场面还历历在目，这次经历不止开阔了眼界，增长了知识，最重要的是认识了一批志同道合的优秀小伙伴们。在一起天下第一，分开后各自牛逼，愿我们可以不被生活打败，永葆激情！”</p>",
+                "authorName": "张同学",
+                "authorBio": "外交学院外交学专业",
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face3.jpg",
@@ -621,9 +705,9 @@
               },
               {
                 "active": false,
-                "text": "<p>\"A major tturning point in the history of early philosophical science was the controversial \"</p>",
-                "authorName": "Alex Higgins",
-                "authorBio": "USER",
+                "text": "“我现在回国就职于一家法国的独立广告代理商Fred &amp; Farid。虽然广告与翻译属于不同行业，但一年多前参加比赛所积累下的在项目管理、时间掌控和多职能部门协调分工方面的经验毫无障碍地转化到了我现在的工作中。现在回想起来，那次比赛就像是我踏入职业路程前的trial run一样！”&nbsp;",
+                "authorName": "Liki&nbsp;",
+                "authorBio": "美国威斯康星大学修辞专业 ",
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face4.jpg",
@@ -647,6 +731,1516 @@
           ],
           "_name": "testimonials1",
           "_anchor": "testimonials1-6"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-s"
+        }
+      ]
+    },
+    "sponsors.html": {
+      "settings": {
+        "title": "大赛赞助商",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c40f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#e74c3c",
+            "overlayOpacity": 0.9
+          },
+          "title": "大赛合作伙伴",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "call3",
+          "_anchor": "call3-1r"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "imageSize": 50,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/baidu-logo-268x268.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://fanyi.baidu.com",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "百度翻译",
+          "subtitle1": "金牌合作伙伴",
+          "caption1": "百度翻译是百度发布的在线翻译服务，依托互联网数据资源和自然语言处理技术优势，致力于帮助用户跨越语言鸿沟，方便快捷地获取信息和服务。",
+          "number1": "A",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://fanyi.baidu.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">网址</a>  ",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-1w"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c40f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/20180327152849-478x150.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "科多思（北京）咨询有限公司",
+          "subtitle1": "金牌合作伙伴",
+          "caption1": "科多思(北京)咨询有限公司（简称”科多思公司“）为全外资公司，总部设在瑞典哥德堡。公司主要业务范围包括技术写作服务、咨询、培训和提供技术文档管理平台及解决方案等，公司专注于这个领域已经超过二十年，在国内外都具有相当高的知名度。",
+          "number1": "A",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-1y"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-u"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-z"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "imageSize": 50,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/20180327153003-600x183.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "SDL",
+          "subtitle1": "银牌合作伙伴",
+          "caption1": "SDL 是语言翻译和内容管理解决方案的行业先锋,将您的品牌推向世界,也让世界认可您的品牌。旗下的SDL Trados是市场使用率第一的CAT软件。",
+          "number1": "B",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://sdl.com\" data-toolbar=\"-mbrBtnMove\">网址</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-1z"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c40f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/pingcap-logo-1-381x108.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "PINGCAP",
+          "subtitle1": "银牌合作伙伴",
+          "caption1": "PingCAP 是国内第一家开源的新型分布式 NewSQL 数据库公司，秉承开源是基础软件的未来这一理念， PingCAP 持续扩大社区影响力，致力于前沿技术领域的创新实现。",
+          "number1": "B",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://pingcap.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-20"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "imageSize": 50,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/madcap-300x311.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "Madcap Flare",
+          "subtitle1": "铜牌合作伙伴",
+          "caption1": "MADCAP是一家专注于技术写作软件的公司。旗下的MadCap Flare 是强大的基于XML专业程序编写内容以及发表允许技术作者和文件资料专家创建和为多频道的出版管理内容软件的应用程序。",
+          "number1": "C",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://madcapsoftware.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">网址</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-22"
+        }
+      ]
+    },
+    "previous_questions.html": {
+      "settings": {
+        "title": "往届试题",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-16"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#169581",
+            "overlayOpacity": "0.6"
+          },
+          "title": "往届试题",
+          "caption": "<p>Article header with background image and parallax effect.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-19"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>第五届计算机辅助翻译与技术传播大赛</b> \n<br>\n<br><b>第一部分 英汉互译（二选一） \n</b><br>英译汉 \n<br>Daylight Saving Time: Why Does It Exist? \n<br>The reason the United States and many other countries, mostly in the West, shift to daylight saving time is contentious and confusing, and some of the more popular explanations are not grounded in reality. (It isn’t for farmers, as you may have learned in school.) \n<br>The general concept is to move an hour of sunlight from the early morning, when many would sleep through it, to the evening, when you could most likely do more with the light. \n<br>“For most people, an extra hour of daylight in the evening after work or after school is much more usable than the hour of daylight in the morning,” said David Prerau, the author of “Seize the Daylight.” \n<br>The idea was originally rooted in saving candle wax, not electricity. \n<br>Historians have traced the notion back to Benjamin Franklin, who realized he was sleeping through some daylight hours while visiting Paris in the 18th century. He suggested French officials shoot cannons at sunrise to jolt people out of bed, optimizing the amount of hours they spent awake when it’s light out. That way, they could cut down on using candles to light their homes while awake, Mr. Prerau said. \n<br>But the first idea to move the clock hands came from William Willett, who unsuccessfully proposed it to the British Parliament in 1908. Germany, however, seeking cost savings during World War I, heard the idea and enacted it in 1915. Three weeks later, the British followed, and other world powers were close behind, including the United States in 1918. \n<br>Reducing energy consumption is still often cited as a chief driver of daylight saving time, but experts can’t agree on whether that is actually a result. There have been many conflicting studies. \n<br>Mr. Downing said the idea was originally based on having “an eight-hour economy,” but electricity demand is no longer based on sunrises and sunsets — not when there’s air conditioning. \n<br>\n<br>汉译英 \n<br>朋友与寂寞 \n<br>朋友实在是一个笼统的词。一般人所说的朋友，多指熟悉到了一定程度的熟人，遇到需要帮忙的事情，彼此间是求得上的。关于这类朋友，前贤常予苛评。克雷洛夫说：“当你遇到困难时，把朋友们找来，你会得到各种好的忠告。可是，只要你一开口提到实际的援助，你最好的朋友也装聋作哑了。” \n<br>马克·吐温说：“神圣的友谊如此甜蜜、忠贞、稳固而长久，以致能伴随人的整个一生——如果不要求借钱的话。”亚里斯多德说得更干脆：“啊，我的朋友，世上并不存在朋友。”我不愿意把人心想象得这么坏，事实上也没有这么坏，我相信只要我的请求是对方力所能及的，我的大多数熟人一定会酌情相助。只是我这个人比较知趣，非到万不得已之时决不愿求人，而真正万不得已的情形是很少的。为了图清静，我也不喜欢把精力耗费在礼尚往来的应酬上。所以，我和一般人的交往常常难以达到所需要的熟悉程度，够不上在这个意义上称作朋友。 \n<br>我心目中的朋友，既非泛泛之交的熟人，也不必是心心相印的恋人，程度当在两者之间。在这个世界上也有些这样的人，不见面时会互相惦记，见了面能感觉到一种默契，在一起度过一段愉快的时光，他们便是我心目中的朋友了。 \n<br>\n<br><b>第二部分：技术传播</b> \n<br>阅读材料，并按要求写作。 \n<br>材料一 \n<br>买了部苹果手机却没有使用手册 南京果粉状告苹果公司索赔1元 \n<br>南京果粉杨先生状告苹果公司索赔1元案，近日在秦淮法院开庭审理。庭审后，苹果电脑贸易(上海)有限公司与杨先生达成了和解协议，苹果公司表示，会对苹果手机使用手册的提供方式问题做进一步完善。 \n<br>——南京晨报网 2015年8月25日 \n<br> （注：“标准”为GB5296.1-2012《消费品使用说明总则》） \n<br>材料二 \n<br>2015-11-27亚心网：爸妈要远游 暖心女儿手绘“微信说明书” \n<br>文档作为产品和市场接轨的桥梁，为产品的在市场上赢得客户的青睐，以及产品的长期发展做出了良好的保障。但是生活中仍有许多产品的用户手册不符合规范，进而影响用户体验，甚至引发产品故障或伤亡事故。请你找到日常生活中令你体验不佳的产品说明，具体指出存在的问题，并尝试进行修正。 \n<br>请提交： \n<br>1. 提交3份你认为存在问题的产品说明，中英文皆可。 \n<br>要求： \n<br>①给出有问题的产品说明（实物照片或文档截图均可） \n<br>②具体说明存在的问题 \n<br>③提出自己的修改建议 \n<br>2. 请选取日常生活中任一物品（如台灯、手表、运动手环等），为其写一份简单的中文产品说明书，不必面面俱到，可侧重于某一特点。 \n<br>要求：①请将所写物品图片放置作品前 \n<br>②1500字以内 \n<br>③至多提交一份作品，若提交多份，则仅对第一份进行评分 \n<br>注意： \n<br>1) 注意排版清晰美观，不拘泥于原有形式，最大程度实现信息可获取。 \n<br>2) 选手作品若为Word文档，为保证布局稳定，请自行转为PDF格式文件。 \n<br>3) 本次大赛鼓励使用多种信息呈现手段，其他文件格式不限，如小视频，PPT，手绘等等，直接附件形式提交邮箱即可。 \n<br>\n<br><b>第六届计算机辅助翻译与技术传播大赛初赛试题</b> \n<br>\n<br><b>第一部分 英汉互译（各一篇）&nbsp;</b><br>英译汉（30分） \n<br>                                            A Prehistoric Killer, Buried In Muck（Excerpt） \n<br>           On a sunny January morning outside Richmond Hill, Georgia, Bill Eberlein, a fifty-two-year-old former I.T. specialist, went diving in a local creek. He wore a wetsuit, a drysuit, a dive hood, and an orange kayaking helmet affixed with a waterproof headlamp, whose ten thousand lumens would afford him six inches of visibility under the murky water. Eberlein—soft-spoken, blue-eyed, big-bellied, with curly dark hair and a long face—had worked this stretch of creek bed before. He has devoted the past eight years of his life to hunting, collecting, and selling the fossilized teeth of the Megalodon, an immense species of prehistoric shark. His destination, a depression forty feet down into the flowing ochreous void, had in the past proved a honeypot. Now, as usual, he would have to search it using only his gloved hands. “Every once in a while you grab something and it moves,” he told me, with characteristic blasé. \n<br>           When picturing the Megalodon, whose name in Greek means “big tooth,” it is easiest to imagine a modern great white, only four or five times more great. Megs, as collectors call them, could grow as long as sixty feet, making them the largest known sharks in history. They lived between twenty-three and 2.6 million years ago, well after the dinosaurs and well before humans. Their distribution was global—teeth have been found on nearly every continent. But, beyond that, according to Kenshu Shimada, a professor of paleobiology at DePaul University, “There are a lot of things that we still don’t know.” Sharks’ skeletons are made of cartilage, which degrades easily, so questions like what the Megalodon ate, what, precisely, it looked like, and why it went extinct are difficult to answer. Its teeth, fortunately, age well, and are common along low-country coasts from North Carolina to Florida. \n<br>文章选自：New Yorker http://www.newyorker.com/tech/elements/a-prehistoric-killer-buried-in-muck \n<br>\n<br>汉译英（30分） \n<br>                                                                        重赏之下必有勇夫？ \n<br>         人们从里约奥运会的奖金排行榜上，似乎看到了大国“抠门”，小国“慷慨”的独特格局。这其中原因究竟为何？事实上，奥运金牌也是发展中国家彰显其国力，提升民族自信心的重要筹码。一个体育弱国想要在奥运上取得好成绩，而国家经济发展水平又还不错的话，往往会采取高额奖金的激励机制。为了使运动员更有冲劲去拼一款金牌，缩小与体育大国的距离，最直接的办法就是加大奖励措施。新加坡就是一个典型的里约之前尚未实现奥运金牌“零突破”的国家，依照新加坡目前强大的经济实力，能够开出如此高额的奖金也就不足为奇。 \n<br>         和新加坡一样，在该排行榜上排名靠前的基本上都属于是金牌小国。新加坡的奥运参赛史始于1948年的伦敦，迄今为止总共获得了4枚奖牌，其中两枚来自2012年伦敦奥运会。在本届奥运会上，印尼奥运金牌奖金比上届奥运翻了五倍，原因是他们在伦敦奥运会上一金未得，创下20年来最差战绩。 \n<br>         事实证明，“重赏之下必有勇夫”的策略已然奏效，新加坡游泳选手斯库林在本届奥运100米蝶泳比赛中击败菲尔普斯获得冠军，并打破了奥运会纪录，为新加坡实现了奥运金牌“零的突破”。这枚金牌无疑能让斯库林“名利双收”，一举成为国家的英雄。 \n<br>\n<br>文章选自：南方周末《金牌越多，赚的越少？》 http://www.infzm.com/content/11924 \n<br>\n<br><b>第二部分：技术传播&nbsp;（40分） \n</b><br>请阅读材料，并按要求写作。 \n<br>材料一 \n<br>        微信小程序简称CX，是一种不需要下载安装即可使用的应用。微信小程序可以帮助开发者快速的开发小程序，微信小程序可以在微信内被便捷地获取和传播；是一种不需要下载安装即可使用的应用小程序，和原有的三种公众号是并行的体系。 \n<br>        2016年1月11日，微信之父张小龙公开亮相，解读了微信的四大价值观。张小龙指出，越来越多产品通过公众号来做，因为这里开发、获取用户和传播成本更低。拆分出来的服务号并没有提供更好的服务，所以微信内部正在研究新的形态，叫「微信小程序」。 \n<br>        2016年9月21日，微信小程序正式开启内测。在微信生态下，触手可及、用完即走的微信小程序引起广泛关注。腾讯云正式上线微信小程序解决方案，提供小程序在云端服务器的技术方案。 \n<br>        2017年1月9日，小程序正式上线。 \n<br>                                                                                                                                      ——材料来源于互动百科 \n<br>        \n<br>        材料二Minimalism \n<br>        The Minimalist approach to technical documentation began around 1982 with the work of John Carroll and his colleagues at IBM.  \n<br>        Minimalism is a design philosophy. Minimalism is a use-centered approach because its priority lies in supporting usage of an application. It is also a user-centered approach because it adapts to the audience as much as possible. The principles and heuristics of minimalism are not rules to be followed blindly or rigorously; they “merely” afford better designs. In addition, they work well only in combination with a thorough treatment of basic design issues such as context, audience and task analyses.  \n<br>        Minimalism helps reduce training time while increasing learning. Research generally reports a reduction of training time of around 30% and a learning gain of at least 25% compared to other designs. In addition, minimalism reduces production cost because the documentation is always considerably shorter than the original. \n<br>        Companies such as IBM, Hewlett Packard, Apple Macintosh, Claris Corporation, Lucent Technologies and Microsoft are applying minimalism for developing products like manuals and online help.  \n<br>\n<br> ——材料来源于荷兰屯特大学副教授Hans van der Meij的文章http://users.edte.utwente.nl/meij/minimalism.htm \n<br>\n<br>任务：请选取微信小程序中的任一程序，为其分别制作一份中文版和英文版使用指南，文件格式不限，比如文本、网页、音频、视频等。此部分作答可不使用大赛提供的答题纸。（中文版和英文版各占20分） \n<br>要求： \n<br>1. 尽量挖掘小程序的功能与玩法。 \n<br>2. 尽量采用材料二的原则。&nbsp;",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1a",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-18"
+        }
+      ]
+    },
+    "committee.html": {
+      "settings": {
+        "title": "大赛组委会",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "7",
+            "paddingBottom": 1,
+            "bgColor": "#e74c3c"
+          },
+          "title": "第七届大赛组委会名单",
+          "meta": "",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-26"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-13"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-15"
+        },
+        {
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "7",
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>北京大学</b>：俞敬松，高志军<br><b>中国标准化协会</b>：<br><b>中国翻译协会</b>：<br><b>科多思（北京）咨询有限公司</b>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-27"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "名单正在更新中，请稍后回来.",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-28"
+        }
+      ]
+    },
+    "question.html": {
+      "settings": {
+        "title": "本届试题",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1b"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#169581",
+            "overlayOpacity": "0.6"
+          },
+          "title": "本届试题",
+          "caption": "<p>Article header with background image and parallax effect.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1c"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>初赛试题已发送给报名选手。复赛尚未发布，敬请期待~</b>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1d"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1e"
+        }
+      ]
+    },
+    "examples.html": {
+      "settings": {
+        "title": "往届优秀作品",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1f"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#169581",
+            "overlayOpacity": "0.6"
+          },
+          "title": "往届优秀作品",
+          "caption": "<p>Article header with background image and parallax effect.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1g"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>往届CATTC优秀初赛作品展播</b><br>\n<br><br>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content1-1h"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1i"
         }
       ]
     }
