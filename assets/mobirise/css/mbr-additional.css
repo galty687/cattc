@@ -736,6 +736,23 @@ blockquote {
 #header4-9 .mbr-section-subtitle {
   font-size: 36px;
 }
+#content3-e .mbr-section-title,
+#content3-e .mbr-section-subtitle {
+  text-align: center;
+}
+#content3-e H3 {
+  font-size: 60px;
+}
+#content2-d BLOCKQUOTE {
+  font-size: 16px;
+  color: #000000;
+}
+#content2-d DIV {
+  color: #000000;
+}
+#tabs1-1k P {
+  text-align: center;
+}
 #menu-1 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -803,20 +820,6 @@ blockquote {
 #menu-1 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#content3-e .mbr-section-title,
-#content3-e .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-e H3 {
-  font-size: 60px;
-}
-#content2-d BLOCKQUOTE {
-  font-size: 16px;
-  color: #000000;
-}
-#content2-d DIV {
-  color: #000000;
-}
 #features9-5 .mbr-section-title {
   font-size: 80px;
 }
@@ -846,6 +849,30 @@ blockquote {
 #footer1-s .mbr-section-subtitle {
   margin-bottom: 20px;
   margin-top: 0;
+}
+#call3-1r .display-1 {
+  font-weight: 700;
+  color: #fff;
+}
+#call3-1r .lead {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#features7-1w .lead {
+  color: #9fa3a7;
+}
+#features7-1w .mbr-section-subtitle {
+  text-transform: uppercase;
+}
+#features8-1y .lead {
+  color: #9fa3a7;
+}
+#features8-1y .mbr-section-subtitle {
+  text-transform: uppercase;
+}
+#features8-1y .mbr-section-text {
+  color: #000000;
 }
 #menu-u .hide-buttons .nav-btn {
   display: none !important;
@@ -914,17 +941,6 @@ blockquote {
 #menu-u .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#features1-12 .mbr-section-title {
-  font-weight: 700;
-}
-#features1-12 .mbr-section-subtitle {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fff;
-}
-#features1-12 .mbr-section-text {
-  text-align: left;
-}
 #footer1-z .mbr-section-subtitle,
 #footer1-z .mbr-section-text {
   color: #fff;
@@ -932,6 +948,24 @@ blockquote {
 #footer1-z .mbr-section-subtitle {
   margin-bottom: 20px;
   margin-top: 0;
+}
+#features7-1z .lead {
+  color: #9fa3a7;
+}
+#features7-1z .mbr-section-subtitle {
+  text-transform: uppercase;
+}
+#features8-20 .lead {
+  color: #9fa3a7;
+}
+#features8-20 .mbr-section-subtitle {
+  text-transform: uppercase;
+}
+#features7-22 .lead {
+  color: #9fa3a7;
+}
+#features7-22 .mbr-section-subtitle {
+  text-transform: uppercase;
 }
 #menu-16 .hide-buttons .nav-btn {
   display: none !important;
@@ -1011,6 +1045,10 @@ blockquote {
   margin-bottom: 20px;
   margin-top: 0;
 }
+#content3-26 .mbr-section-title,
+#content3-26 .mbr-section-subtitle {
+  text-align: center;
+}
 #menu-13 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1077,17 +1115,6 @@ blockquote {
 #menu-13 .link[aria-expanded="true"],
 #menu-13 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
-}
-#features1-14 .mbr-section-title {
-  font-weight: 700;
-}
-#features1-14 .mbr-section-subtitle {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fff;
-}
-#features1-14 .mbr-section-text {
-  text-align: left;
 }
 #footer1-15 .mbr-section-subtitle,
 #footer1-15 .mbr-section-text {
@@ -1250,41 +1277,4 @@ blockquote {
 #footer1-1i .mbr-section-subtitle {
   margin-bottom: 20px;
   margin-top: 0;
-}
-
-body,
-input,
-textarea,
-.mbr-section-text,
-.mbr-section-title,
-.mbr-section-subtitle,
-.lead,
-.mbr-company .list-group-text,
-.panel-body,
-#header4-9
-{
-  font-family: "Montserrat",Arial,'宋体','黑体',sans-serif;
-}
-
-@media screen and (max-device-width: 600px){
-    #header4-9,
-    .display-1,
-    .mbr-section-title{
-        font-size: 40px!important;
-    }
-    .mbr-section-full{
-        height:80vh;
-    }
-}
-
-video{
-    width:100%;
-}
-
-#videotitle{
-    font-size:24px;
-}
-
-#content2-d BLOCKQUOTE {
-  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; 
 }
