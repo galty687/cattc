@@ -1281,3 +1281,40 @@ blockquote {
   margin-bottom: 20px;
   margin-top: 0;
 }
+
+body,
+input,
+textarea,
+.mbr-section-text,
+.mbr-section-title,
+.mbr-section-subtitle,
+.lead,
+.mbr-company .list-group-text,
+.panel-body,
+#header4-9
+{
+  font-family: "Montserrat",Arial,'宋体','黑体',sans-serif;
+}
+
+@media screen and (max-device-width: 600px){
+    #header4-9,
+    .display-1,
+    .mbr-section-title{
+        font-size: 40px!important;
+    }
+    .mbr-section-full{
+        height:80vh;
+    }
+}
+
+video{
+    width:100%;
+}
+
+#videotitle{
+    font-size:24px;
+}
+
+#content2-d BLOCKQUOTE {
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; 
+}
