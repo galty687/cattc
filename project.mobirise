@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "index.html",
+    "currentPage": "sponsors.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -989,7 +989,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "主题"
@@ -1220,7 +1220,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">网址</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://sdl.com\" data-toolbar=\"-mbrBtnMove\">网址</a>",
           "alias": "colorm/components",
           "_tags": [
             "主题"
@@ -1290,7 +1290,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://pingcap.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "主题"
@@ -1360,7 +1360,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">网址</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://madcapsoftware.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">网址</a>",
           "alias": "colorm/components",
           "_tags": [
             "主题"
@@ -1946,7 +1946,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<b>试题尚未发布，敬请期待~</b>",
+          "text": "<b>初赛试题已发送给报名选手。复赛尚未发布，敬请期待~</b>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
