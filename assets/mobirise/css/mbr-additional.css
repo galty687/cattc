@@ -865,6 +865,9 @@ blockquote {
 #features7-1w .mbr-section-subtitle {
   text-transform: uppercase;
 }
+#features7-1w .mbr-section-text {
+  color: #000000;
+}
 #features8-1y .lead {
   color: #9fa3a7;
 }
@@ -955,17 +958,26 @@ blockquote {
 #features7-1z .mbr-section-subtitle {
   text-transform: uppercase;
 }
+#features7-1z .mbr-section-text {
+  color: #000000;
+}
 #features8-20 .lead {
   color: #9fa3a7;
 }
 #features8-20 .mbr-section-subtitle {
   text-transform: uppercase;
 }
+#features8-20 .mbr-section-text {
+  color: #000000;
+}
 #features7-22 .lead {
   color: #9fa3a7;
 }
 #features7-22 .mbr-section-subtitle {
   text-transform: uppercase;
+}
+#features7-22 .mbr-section-text {
+  color: #000000;
 }
 #menu-16 .hide-buttons .nav-btn {
   display: none !important;

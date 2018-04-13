@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "index.html",
+    "currentPage": "sponsors.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -860,6 +860,9 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
             }
           },
           "_params": {
@@ -1165,6 +1168,9 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
             }
           },
           "_params": {
@@ -1235,6 +1241,9 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
             }
           },
           "_params": {
@@ -1271,7 +1280,7 @@
               "title": ""
             }
           },
-          "title1": "PINGCAP",
+          "title1": "PingCAP",
           "subtitle1": "银牌合作伙伴",
           "caption1": "PingCAP 是国内第一家开源的新型分布式 NewSQL 数据库公司，秉承开源是基础软件的未来这一理念， PingCAP 持续扩大社区影响力，致力于前沿技术领域的创新实现。",
           "number1": "B",
@@ -1305,6 +1314,9 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
             }
           },
           "_params": {
