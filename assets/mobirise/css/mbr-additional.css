@@ -1206,6 +1206,10 @@ blockquote {
 #menu-1b .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
+#content1-1d P {
+  color: #000000;
+  text-align: left;
+}
 #footer1-1e .mbr-section-subtitle,
 #footer1-1e .mbr-section-text {
   color: #fff;
