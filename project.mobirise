@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "question.html",
+    "currentPage": "sponsors.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -1198,7 +1198,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/20180327153003-600x183.png",
+              "src": "@PROJECT_PATH@/assets/images/sdl-600x237.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1209,7 +1209,7 @@
           },
           "title1": "SDL",
           "subtitle1": "银牌合作伙伴",
-          "caption1": "SDL 是语言翻译和内容管理解决方案的行业先锋,将您的品牌推向世界,也让世界认可您的品牌。旗下的SDL Trados是市场使用率第一的CAT软件。",
+          "caption1": "SDL (LSE:SDL) 是语言翻译技术、服务和内容管理的全球创新者。凭借超过 25 年的丰富经验，SDL 为全球客户提供强大且有针对性的数字体验，交付顺应时代变革的业务成果。旗下的SDL Trados Studio是市场使用率第一的CAT软件。",
           "number1": "B",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
