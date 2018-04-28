@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "index.html",
+    "currentPage": "examples.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -2181,7 +2181,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<b>往届CATTC优秀初赛作品展播</b><br>\n<br><br>",
+          "text": "<b>往届CATTC优秀初赛作品展播</b><br>\n<br><video src=\"https://ob6m646h0.qnssl.com/video.mp4\" controls=\"controls\"><br>-your browser does not support the video tag<br></video><br>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
