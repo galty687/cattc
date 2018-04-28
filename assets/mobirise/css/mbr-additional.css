@@ -1297,40 +1297,161 @@ blockquote {
   margin-bottom: 20px;
   margin-top: 0;
 }
-
-body,
-input,
-textarea,
-.mbr-section-text,
-.mbr-section-title,
-.mbr-section-subtitle,
-.lead,
-.mbr-company .list-group-text,
-.panel-body,
-#header4-9
-{
-  font-family: "Montserrat",Arial,'宋体','黑体',sans-serif;
+#menu-2h .hide-buttons .nav-btn {
+  display: none !important;
 }
-
-@media screen and (max-device-width: 600px){
-    #header4-9,
-    .display-1,
-    .mbr-section-title{
-        font-size: 40px!important;
-    }
-    .mbr-section-full{
-        height:80vh;
-    }
+#menu-2h .navbar-caption {
+  color: #ffffff;
 }
-
-video{
-    width:100%;
+#menu-2h .navbar-toggler {
+  color: #ffffff;
 }
-
-#videotitle{
-    font-size:24px;
+#menu-2h .close-icon::before,
+#menu-2h .close-icon::after {
+  background-color: #ffffff;
 }
-
-#content2-d BLOCKQUOTE {
-  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; 
+#menu-2h .link,
+#menu-2h .dropdown-item {
+  color: #ffffff;
+}
+#menu-2h .link {
+  font-size: 0.875rem;
+}
+#menu-2h .dropdown-item,
+#menu-2h .nav-dropdown-sm .link {
+  font-size: 0.948rem;
+}
+#menu-2h .link:hover,
+#menu-2h .link:focus {
+  color: #f39c12;
+}
+#menu-2h .dropdown-item:hover::before,
+#menu-2h .dropdown-item:focus::before {
+  background: #f39c12;
+}
+#menu-2h .dropdown-item:hover,
+#menu-2h .dropdown-item:focus {
+  color: #ffffff;
+}
+#menu-2h .link[aria-expanded="true"],
+#menu-2h .dropdown-menu {
+  background: #1a242f;
+}
+#menu-2h .nav-dropdown-sm .link:focus,
+#menu-2h .nav-dropdown-sm .link:hover,
+#menu-2h .nav-dropdown-sm .dropdown-item:focus,
+#menu-2h .nav-dropdown-sm .dropdown-item:hover {
+  background: #273646!important;
+}
+#menu-2h .navbar,
+#menu-2h .nav-dropdown-sm,
+#menu-2h .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-2h .nav-dropdown-sm .dropdown-menu {
+  background: #2c3e50;
+}
+#menu-2h .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-2h .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-2h .bg-color.transparent.opened .link:hover,
+#menu-2h .bg-color.transparent.opened .link:focus {
+  color: #f39c12;
+}
+#menu-2h .link[aria-expanded="true"],
+#menu-2h .dropdown-item[aria-expanded="true"] {
+  color: #f39c12!important;
+}
+#content1-2j P {
+  color: #000000;
+  text-align: left;
+}
+#footer1-2k .mbr-section-subtitle,
+#footer1-2k .mbr-section-text {
+  color: #fff;
+}
+#footer1-2k .mbr-section-subtitle {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+#menu-2n .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-2n .navbar-caption {
+  color: #ffffff;
+}
+#menu-2n .navbar-toggler {
+  color: #ffffff;
+}
+#menu-2n .close-icon::before,
+#menu-2n .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-2n .link,
+#menu-2n .dropdown-item {
+  color: #ffffff;
+}
+#menu-2n .link {
+  font-size: 0.875rem;
+}
+#menu-2n .dropdown-item,
+#menu-2n .nav-dropdown-sm .link {
+  font-size: 0.948rem;
+}
+#menu-2n .link:hover,
+#menu-2n .link:focus {
+  color: #f39c12;
+}
+#menu-2n .dropdown-item:hover::before,
+#menu-2n .dropdown-item:focus::before {
+  background: #f39c12;
+}
+#menu-2n .dropdown-item:hover,
+#menu-2n .dropdown-item:focus {
+  color: #ffffff;
+}
+#menu-2n .link[aria-expanded="true"],
+#menu-2n .dropdown-menu {
+  background: #1a242f;
+}
+#menu-2n .nav-dropdown-sm .link:focus,
+#menu-2n .nav-dropdown-sm .link:hover,
+#menu-2n .nav-dropdown-sm .dropdown-item:focus,
+#menu-2n .nav-dropdown-sm .dropdown-item:hover {
+  background: #273646!important;
+}
+#menu-2n .navbar,
+#menu-2n .nav-dropdown-sm,
+#menu-2n .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-2n .nav-dropdown-sm .dropdown-menu {
+  background: #2c3e50;
+}
+#menu-2n .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-2n .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-2n .bg-color.transparent.opened .link:hover,
+#menu-2n .bg-color.transparent.opened .link:focus {
+  color: #f39c12;
+}
+#menu-2n .link[aria-expanded="true"],
+#menu-2n .dropdown-item[aria-expanded="true"] {
+  color: #f39c12!important;
+}
+#content1-2p P {
+  color: #000000;
+  text-align: left;
+}
+#footer1-2q .mbr-section-subtitle,
+#footer1-2q .mbr-section-text {
+  color: #fff;
+}
+#footer1-2q .mbr-section-subtitle {
+  margin-bottom: 20px;
+  margin-top: 0;
 }
