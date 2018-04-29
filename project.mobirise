@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "examples.html",
+    "currentPage": "final.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -2401,7 +2401,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<p><b>决赛名单</b><br><br>陈燕骄 重庆邮电大学\n<br>严琼 重庆邮电大学\n<br>母芮 西南交通大学\n<br>石雅荣 贵州大学\n<br>庄璐纯 重庆第二师范学院\n<br>郝帅 西南交通大学\n<br>许不凡 西南交通大学\n<br>姜奕桐 大连外国语大学\n<br>吴绪瑶 西安外国语大学\n<br>曲小兵 澳门大学\n<br>彭小泓 重庆邮电大学\n<br>李丹 四川师范大学\n<br>张华予 大连海事大学\n<br>唐元祎 北京航空航天大学\n<br>许若琳 中山大学\n<br>梁紫君 北京语言大学\n<br>刘欣悦 西南交通大学\n<br>李文璐 西南交通大学\n<br>孟凡书 中山大学\n<br>曾悦铮 西南交通大学\n<br>韩瑶 大连理工大学\n<br>熊佟 重庆邮电大学\n<br>朱莹 北京语言大学\n<br>于加南 大连海事大学\n<br>张靖彬 西南交通大学\n<br>吴冰欣 山东大学\n<br>马丽寒 广东外语外贸大学\n<br>熊伊君 中南大学\n<br>兰恒草 西南交通大学\n<br>段慧琼 中南大学\n<br>周冰倩 西安外国语大学\n<br>张子成 长江大学\n<br>胡俏媚 大连海事大学\n<br>石玥 大连海事大学\n<br>冯圆圆 中国石油大学（华东）\n<br>刘家琪 安徽大学\n<br>王雪敏 厦门理工学院\n<br>肖晶 重庆邮电大学\n<br>李昱 辽宁师范大学\n<br>余邡棋 西南交通大学\n</p><br><br><p>恭喜以上晋级同学！请尽快加入大赛官方决赛群，并在加群时备注“决赛组别+姓名+学校”。<br><br></p>",
+          "text": "<p><b>决赛名单</b></p><p><br>陈燕骄 重庆邮电大学\n<br>严 琼 重庆邮电大学\n<br>李承泽 北京外国语大学\n<br>母 芮 西南交通大学\n<br>石雅荣 贵州大学\n<br>庄璐纯 重庆第二师范学院\n<br>郝 帅 西南交通大学\n<br>许不凡 西南交通大学\n<br>吴绪瑶 西安外国语大学\n<br>曲小兵 澳门大学\n<br>彭小泓 重庆邮电大学\n<br>李 丹 四川师范大学\n<br>许若琳 中山大学\n<br>梁紫君 北京语言大学\n<br>唐元祎 北京航空航天大学\n<br>姜奕桐 大连外国语大学\n<br>周杨美汕 上海理工大学\n<br>张华予 大连海事大学\n<br>韩 瑶 大连理工大学\n<br>朱 莹 北京语言大学\n<br>武 翔 北京大学\n<br>王琳筠 华北电力大学\n<br>李 玥 国际关系学院\n<br>熊伊君 中南大学\n<br>吴冰欣 山东大学\n<br>马丽寒 广东外语外贸大学\n<br>张嘉敏 中山大学\n<br>段慧琼 中南大学\n<br>孟凡书 中山大学\n<br>冯圆圆 中国石油大学（华东）\n<br>刘家琪 安徽大学\n<br>王雪敏 厦门理工学院\n<br>李 昱 辽宁师范大学\n<br>王 艺 东南大学\n<br>王可欣 北京语言大学\n<br>张子成 长江大学\n<br>王婷婷 北方工业大学\n<br>郭惟杰 苏州大学\n<br>潘 轩 南京工业大学\n<br>王 哲 曲阜师范大学<br></p><br><p>恭喜以上晋级同学！请尽快加入大赛官方决赛群（见微信公众号推送），并在加群时备注“决赛组别+姓名+学校”。<br><br></p>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -2621,7 +2621,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<b>第七届计算机辅助翻译与技术传播大赛\n</b><br><br>等待更新中~",
+          "text": "<p><b>第七届计算机辅助翻译与技术传播大赛 &nbsp;</b><b>决赛试题\n</b><br><br><b>任务概述\n</b><br><a href=\"https://omegat.org/\">OmegaT</a>为一款开源的计算机辅助翻译工具，代码和文档都是由爱好者利用自己的业余时间完成的。现有文档依然有很多地方可以改进，例如：<br> 1.\t文档与软件不一致。因为缺乏人手，目前软件版本号为4.1.3，但文档英文版只有3.6版，中文版则为3.02。\n<br> 2.\t以功能为中心。目前的文档主要还是以描述产品为主，需要能针对特定用户的常见任务，设计以用户中心，以任务为导向的用户手册。\n<br> 3.\t概念与步骤混合。现有的文档常常将概念和步骤混合在一起，不便于文档的使用，也不便于后续内容复用。\n<br> 4.\t文档呈现形式欠佳。目前的文档并没有很好的考虑文档的呈现，视觉上较为杂乱。\n<br>还有其他问题不再一一赘述，需要参赛选手进行分析，并重新设计文档，具体任务有三：\n<br> 1.\t单页面功能介绍\n<br> 2.\t软件教程\n<br> 3.\t内容翻译\n<br>具体要求将在下方详细列出。\n<br>\n<br><b>一、单页面功能介绍</b>\n<br>要求：\n<br> 1.\t能让用户快速了解OmegaT的功能，并能产生进一步使用的兴趣\n<br> 2.\t形式和工具不限，可以使用HTML开发工具制作单页面。也可以Adobe InDesign，Word等制作并输出为PDF\n<br>参考：\n<br> 1.\t<a href=\"https://pay.google.com/about/\">Google Pay</a>\n<br> 2.\t<a href=\"https://pages.github.com\">Github Pages\n</a><br>\n<br><b>二、软件教程\n</b><br>需要遵照文档开发的流程：\n<br> 1.\t需求分析。进行用户调研，弄清楚用户常见的任务\n<br> 2.\t信息设计。针对用户的需求，设计恰当的信息提供方式\n<br> 3.\t信息开发。按照之前的分析和设计，进行教程开发\n<br> 4.\t信息评价。开发完成后，评价信息是否可以达到设计目标。\n<br>要求：\n<br> •\t至少有PDF的手册和在线版本两种发布形式\n<br> •\t开发工具不限。学生可以使用dita (oXygen)，rst (Sphinx)，mardkown (Jekyll)，word等任意技术进行写作，需要考虑多种设备适配的问题\n<br> •\t额外能生成其他创新的用户帮助形式可加分，如：\n<br>  –\t视频、动画\n<br>  –\t使用Adobe Captivate等模拟仿真方式\n<br>  –\tGuided Tour 等浮层引导式帮助\n<br>  –\t增强现实\n<br>  –\t嵌入式用户帮助\n<br>  –\t其他任意创新形式\n<br>参考\n<br> 1.\t<a href=\"https://help.apple.com/watch/?lang=zh-cn#/\">Apple Watch\n</a><br> 2.\t<a href=\"https://developer.amazon.com/docs/catalog/integrating-your-catalog-with-fire-tv.html\">Amazon appstore\n</a><br> 3.\t<a href=\"http://try.github.io\">Try Git\n</a><br>\n<br><b>三、内容翻译</b>\n<br>上述内容创作时，使用中文或英文均可，最后翻译为另外一种语言即可。\n<br>要求：\n<br> 1.\t需要使用计算机辅助翻译工具进行翻译。工具不限，可以使用SDL Trados，Across，Déjà vu 等工具\n<br> 2.\t鼓励使用机器翻译+后编辑的模式\n<br> 3.\t确保术语、风格等一致\n<br> 4.\t鼓励使用各种工具和技术，确保译文质量准确无误，如语料库，质量检查等工具。&nbsp;<br></p>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
