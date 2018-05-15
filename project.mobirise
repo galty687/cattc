@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "final.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -31,7 +31,7 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "siteUrl": "",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 99,
+    "uniqCompNum": 106,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -585,7 +585,7 @@
           "date12": "12 December 2016",
           "text1": "翻译：英译汉、汉译英短文各一篇\n<br>技术传播：寻求某个技术传播案例的解决方案，形式不限。<br><br><a href=\"question.html\">点此查看试题</a>",
           "text2": "<a href=\"finallist.html\">点此查看决赛名单</a>",
-          "text3": "决赛选手将在5月接受培训，并以小组为单位准备决赛。",
+          "text3": "决赛选手将在5月接受培训，并以小组为单位准备决赛。<br><br><a href=\"training.html\">点击查看决赛培训视频</a>",
           "text4": "在北京大学进行最后的决赛答辩并进行颁奖典礼。",
           "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
@@ -2181,7 +2181,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<b>往届CATTC优秀初赛作品展播</b><br>\n<br><video src=\"http://ob6m646h0.qnssl.com/video.mp4\" controls=\"controls\"><br>-your browser does not support the video tag<br></video><br>",
+          "text": "<b>往届CATTC优秀初赛作品展播</b><br>\n<br><video src=\"https://ob6m646h0.qnssl.com/video.mp4\" controls=\"controls\"><br>-your browser does not support the video tag<br></video><br>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -2272,7 +2272,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -2492,7 +2492,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -2621,7 +2621,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<p><b>第七届计算机辅助翻译与技术传播大赛 &nbsp;</b><b>决赛试题\n</b><br><br><b>任务概述\n</b><br><a href=\"https://omegat.org/\">OmegaT</a>为一款开源的计算机辅助翻译工具，代码和文档都是由爱好者利用自己的业余时间完成的。现有文档依然有很多地方可以改进，例如：<br> 1.\t文档与软件不一致。因为缺乏人手，目前软件版本号为4.1.3，但文档英文版只有3.6版，中文版则为3.02。\n<br> 2.\t以功能为中心。目前的文档主要还是以描述产品为主，需要能针对特定用户的常见任务，设计以用户中心，以任务为导向的用户手册。\n<br> 3.\t概念与步骤混合。现有的文档常常将概念和步骤混合在一起，不便于文档的使用，也不便于后续内容复用。\n<br> 4.\t文档呈现形式欠佳。目前的文档并没有很好的考虑文档的呈现，视觉上较为杂乱。\n<br>还有其他问题不再一一赘述，需要参赛选手进行分析，并重新设计文档，具体任务有三：\n<br> 1.\t单页面功能介绍\n<br> 2.\t软件教程\n<br> 3.\t内容翻译\n<br>具体要求将在下方详细列出。\n<br>\n<br><b>一、单页面功能介绍</b>\n<br>要求：\n<br> 1.\t能让用户快速了解OmegaT的功能，并能产生进一步使用的兴趣\n<br> 2.\t形式和工具不限，可以使用HTML开发工具制作单页面。也可以Adobe InDesign，Word等制作并输出为PDF\n<br>参考：\n<br> 1.\t<a href=\"https://pay.google.com/about/\">Google Pay</a>\n<br> 2.\t<a href=\"https://pages.github.com\">Github Pages\n</a><br>\n<br><b>二、软件教程\n</b><br>需要遵照文档开发的流程：\n<br> 1.\t需求分析。进行用户调研，弄清楚用户常见的任务\n<br> 2.\t信息设计。针对用户的需求，设计恰当的信息提供方式\n<br> 3.\t信息开发。按照之前的分析和设计，进行教程开发\n<br> 4.\t信息评价。开发完成后，评价信息是否可以达到设计目标。\n<br>要求：\n<br> •\t至少有PDF的手册和在线版本两种发布形式\n<br> •\t开发工具不限。学生可以使用dita (oXygen)，rst (Sphinx)，mardkown (Jekyll)，word等任意技术进行写作，需要考虑多种设备适配的问题\n<br> •\t额外能生成其他创新的用户帮助形式可加分，如：\n<br>  –\t视频、动画\n<br>  –\t使用Adobe Captivate等模拟仿真方式\n<br>  –\tGuided Tour 等浮层引导式帮助\n<br>  –\t增强现实\n<br>  –\t嵌入式用户帮助\n<br>  –\t其他任意创新形式\n<br>参考\n<br> 1.\t<a href=\"https://help.apple.com/watch/?lang=zh-cn#/\">Apple Watch\n</a><br> 2.\t<a href=\"https://developer.amazon.com/docs/catalog/integrating-your-catalog-with-fire-tv.html\">Amazon appstore\n</a><br> 3.\t<a href=\"http://try.github.io\">Try Git\n</a><br>\n<br><b>三、内容翻译</b>\n<br>上述内容创作时，使用中文或英文均可，最后翻译为另外一种语言即可。\n<br>要求：\n<br> 1.\t需要使用计算机辅助翻译工具进行翻译。工具不限，可以使用SDL Trados，Across，Déjà vu 等工具\n<br> 2.\t鼓励使用机器翻译+后编辑的模式\n<br> 3.\t确保术语、风格等一致\n<br> 4.\t鼓励使用各种工具和技术，确保译文质量准确无误，如语料库，质量检查等工具。&nbsp;<br></p>",
+          "text": "<p><b>第七届计算机辅助翻译与技术传播大赛 &nbsp;</b><b>决赛试题\n</b><br>&lt;pre&gt;<br><b>任务概述\n</b><br><a href=\"https://omegat.org/\">OmegaT</a>为一款开源的计算机辅助翻译工具，代码和文档都是由爱好者利用自己的业余时间完成的。现有文档依然有很多地方可以改进，例如：<br> 1.&nbsp;文档与软件不一致。因为缺乏人手，目前软件版本号为4.1.3，但文档英文版只有3.6版，中文版则为3.02。\n<br> 2.&nbsp;以功能为中心。目前的文档主要还是以描述产品为主，需要能针对特定用户的常见任务，设计以用户中心，以任务为导向的用户手册。\n<br> 3.&nbsp;概念与步骤混合。现有的文档常常将概念和步骤混合在一起，不便于文档的使用，也不便于后续内容复用。\n<br> 4.&nbsp;文档呈现形式欠佳。目前的文档并没有很好的考虑文档的呈现，视觉上较为杂乱。\n<br>还有其他问题不再一一赘述，需要参赛选手进行分析，并重新设计文档，具体任务有三：\n<br> 1.&nbsp;单页面功能介绍\n<br> 2.&nbsp;软件教程\n<br> 3.&nbsp;内容翻译\n<br>具体要求将在下方详细列出。\n<br>\n<br><b>一、单页面功能介绍</b>\n<br>要求：\n<br> 1.&nbsp;能让用户快速了解OmegaT的功能，并能产生进一步使用的兴趣\n<br> 2.&nbsp;形式和工具不限，可以使用HTML开发工具制作单页面。也可以Adobe InDesign，Word等制作并输出为PDF\n<br>参考：\n<br> 1.&nbsp;<a href=\"https://pay.google.com/about/\">Google Pay</a>\n<br> 2.&nbsp;<a href=\"https://pages.github.com\">Github Pages\n</a><br>\n<br><b>二、软件教程\n</b><br>需要遵照文档开发的流程：\n<br> 1.&nbsp;需求分析。进行用户调研，弄清楚用户常见的任务\n<br> 2.&nbsp;信息设计。针对用户的需求，设计恰当的信息提供方式\n<br> 3.&nbsp;信息开发。按照之前的分析和设计，进行教程开发\n<br> 4.&nbsp;信息评价。开发完成后，评价信息是否可以达到设计目标。\n<br>要求：\n<br> •\t至少有PDF的手册和在线版本两种发布形式\n<br> •\t开发工具不限。学生可以使用dita (oXygen)，rst (Sphinx)，mardkown (Jekyll)，word等任意技术进行写作，需要考虑多种设备适配的问题\n<br> •\t额外能生成其他创新的用户帮助形式可加分，如：\n<br>  –\t视频、动画\n<br>  –\t使用Adobe Captivate等模拟仿真方式\n<br>  –\tGuided Tour 等浮层引导式帮助\n<br>  –\t增强现实\n<br>  –\t嵌入式用户帮助\n<br>  –\t其他任意创新形式\n<br>参考\n<br> 1.&nbsp;<a href=\"https://help.apple.com/watch/?lang=zh-cn#/\">Apple Watch\n</a><br> 2.&nbsp;<a href=\"https://developer.amazon.com/docs/catalog/integrating-your-catalog-with-fire-tv.html\">Amazon appstore\n</a><br> 3.&nbsp;<a href=\"http://try.github.io\">Try Git\n</a><br>\n<br><b>三、内容翻译</b>\n<br>上述内容创作时，使用中文或英文均可，最后翻译为另外一种语言即可。\n<br>要求：\n<br> 1.&nbsp;需要使用计算机辅助翻译工具进行翻译。工具不限，可以使用SDL Trados，Across，Déjà vu 等工具\n<br> 2.&nbsp;鼓励使用机器翻译+后编辑的模式\n<br> 3.&nbsp;确保术语、风格等一致\n<br> 4.&nbsp;鼓励使用各种工具和技术，确保译文质量准确无误，如语料库，质量检查等工具。 &lt;/pre&gt;</p><ol>\n<br></ol>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -2702,6 +2702,226 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-2q"
+        }
+      ]
+    },
+    "training.html": {
+      "settings": {
+        "title": "本届培训",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2u"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#169581",
+            "overlayOpacity": "0.6"
+          },
+          "title": "本届培训",
+          "caption": "<p>Article header with background image and parallax effect.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-2v"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>第七届计算机辅助翻译与技术传播大赛 决赛培训</b><br><br><b>视频一</b><br>2018年5月10日盛红英老师分享的结构化写作概念专题的视频，该部分主要介绍了DITA的使用场景、基本概念以及基本特征。\n<br>\n<br>视频共持续53分钟左右，建议WIFI环境观看。另外其中部分由于直播平台原因噪音较大，请大家谅解。<b><br></b><br><br>&nbsp;<embed src=\"https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=j0653jscul1&amp;auto=0\" allowfullscreen=\"true\" quality=\"high\" width=\"480\" height=\"400\" align=\"middle\" allowscriptaccess=\"always\" type=\"application/x-shockwave-flash\"><br>嘉宾老师介绍：盛红英，科多思资深文档工程师/项目经理(PMP)， 爱立信DITA CMS信息解决方案评估实施的领军人物之一。躬耕信息服务行业十载，在多年跨国团队协作及管理工作中，不断在结构化写作、信息自动化、质量管控、文档团队能力建设等方向积极创新，努力践行。<br><br><br><b>视频二</b><br>2018年5月11日周淑君老师分享的Oxygen写作工具专题的视频，该部分主要介绍了使用Oxygen写作工具的小型技术文档开发项目运作实践。\n<br>\n<br>视频共持续50分钟左右。<br><br><embed src=\"https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=b0653wffnml&amp;auto=0\" allowfullscreen=\"true\" quality=\"high\" width=\"480\" height=\"400\" align=\"middle\" allowscriptaccess=\"always\" type=\"application/x-shockwave-flash\"><br>嘉宾老师介绍：周淑君，科多思资深技术写作专家，从事技术传播行业12年，在用户体验、信息架构设计、结构化写作、多语种交付、信息运营等方面积累了丰富的实践经验和独特的见解。从2014年起担任北京大学《技术传播实践》、北京外国语大学《英文技术写作》、北京语言大学《英文技术写作》课程的兼职讲师。<br><br>移动端无法观看，请直接访问原网站。<br>技术写作专题培训——结构化写作概念：<a href=\"https://v.qq.com/x/page/j0653jscul1.html\">https://v.qq.com/x/page/j0653jscul1.html</a><br>技术写作专题培训——oXygen写作工具：<a href=\"https://v.qq.com/x/page/b0653wffnml.html\">https://v.qq.com/x/page/b0653wffnml.html</a><br><br><br>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-2w"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2x"
         }
       ]
     }
