@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "index.html",
+    "currentPage": "training.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -2841,7 +2841,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<b>第七届计算机辅助翻译与技术传播大赛 决赛培训</b><br><br><b>视频一</b><br>2018年5月10日盛红英老师分享的结构化写作概念专题的视频，该部分主要介绍了DITA的使用场景、基本概念以及基本特征。\n<br>\n<br>视频共持续53分钟左右，建议WIFI环境观看。另外其中部分由于直播平台原因噪音较大，请大家谅解。<b><br></b><br><br>&nbsp;<embed src=\"https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=j0653jscul1&amp;auto=0\" allowfullscreen=\"true\" quality=\"high\" width=\"480\" height=\"400\" align=\"middle\" allowscriptaccess=\"always\" type=\"application/x-shockwave-flash\"><br>嘉宾老师介绍：盛红英，科多思资深文档工程师/项目经理(PMP)， 爱立信DITA CMS信息解决方案评估实施的领军人物之一。躬耕信息服务行业十载，在多年跨国团队协作及管理工作中，不断在结构化写作、信息自动化、质量管控、文档团队能力建设等方向积极创新，努力践行。<br><br><br><b>视频二</b><br>2018年5月11日周淑君老师分享的Oxygen写作工具专题的视频，该部分主要介绍了使用Oxygen写作工具的小型技术文档开发项目运作实践。\n<br>\n<br>视频共持续50分钟左右。<br><br><embed src=\"https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=b0653wffnml&amp;auto=0\" allowfullscreen=\"true\" quality=\"high\" width=\"480\" height=\"400\" align=\"middle\" allowscriptaccess=\"always\" type=\"application/x-shockwave-flash\"><br>嘉宾老师介绍：周淑君，科多思资深技术写作专家，从事技术传播行业12年，在用户体验、信息架构设计、结构化写作、多语种交付、信息运营等方面积累了丰富的实践经验和独特的见解。从2014年起担任北京大学《技术传播实践》、北京外国语大学《英文技术写作》、北京语言大学《英文技术写作》课程的兼职讲师。<br><br>移动端无法观看，请直接访问原网站。<br>技术写作专题培训——结构化写作概念：<a href=\"https://v.qq.com/x/page/j0653jscul1.html\">https://v.qq.com/x/page/j0653jscul1.html</a><br>技术写作专题培训——oXygen写作工具：<a href=\"https://v.qq.com/x/page/b0653wffnml.html\">https://v.qq.com/x/page/b0653wffnml.html</a><br><br><br>",
+          "text": "<b>第七届计算机辅助翻译与技术传播大赛 决赛培训</b><br><br><b>视频一</b><br>2018年5月10日盛红英老师分享的结构化写作概念专题的视频，该部分主要介绍了DITA的使用场景、基本概念以及基本特征。\n<br>\n<br>视频共持续53分钟左右，建议WIFI环境观看。另外其中部分由于直播平台原因噪音较大，请大家谅解。<b><br></b><br><iframe frameborder=\"0\" width=\"640\" height=\"498\" src=\"https://v.qq.com/iframe/player.html?vid=j0653jscul1&amp;tiny=0&amp;auto=0\" allowfullscreen=\"\"></iframe><br>&nbsp;<br>嘉宾老师介绍：盛红英，科多思资深文档工程师/项目经理(PMP)， 爱立信DITA CMS信息解决方案评估实施的领军人物之一。躬耕信息服务行业十载，在多年跨国团队协作及管理工作中，不断在结构化写作、信息自动化、质量管控、文档团队能力建设等方向积极创新，努力践行。<br><br><br><b>视频二</b><br>2018年5月11日周淑君老师分享的Oxygen写作工具专题的视频，该部分主要介绍了使用Oxygen写作工具的小型技术文档开发项目运作实践。\n<br>\n<br>视频共持续50分钟左右。<br><iframe frameborder=\"0\" width=\"640\" height=\"498\" src=\"https://v.qq.com/iframe/player.html?vid=b0653wffnml&amp;tiny=0&amp;auto=0\" allowfullscreen=\"\"></iframe><br><br>嘉宾老师介绍：周淑君，科多思资深技术写作专家，从事技术传播行业12年，在用户体验、信息架构设计、结构化写作、多语种交付、信息运营等方面积累了丰富的实践经验和独特的见解。从2014年起担任北京大学《技术传播实践》、北京外国语大学《英文技术写作》、北京语言大学《英文技术写作》课程的兼职讲师。<br><br>移动端无法观看，请直接访问原网站。<br>技术写作专题培训——结构化写作概念：<a href=\"https://v.qq.com/x/page/j0653jscul1.html\">https://v.qq.com/x/page/j0653jscul1.html</a><br>技术写作专题培训——oXygen写作工具：<a href=\"https://v.qq.com/x/page/b0653wffnml.html\">https://v.qq.com/x/page/b0653wffnml.html</a><br><br><br>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
