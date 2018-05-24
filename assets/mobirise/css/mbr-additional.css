@@ -1649,13 +1649,13 @@ video{
 #content1-1d img{
     display:block;
     margin:0 auto;
-    width:100%;
+    max-width:100%;
 }
 
 #content1-30 img{
     display:block;
     margin:0 auto;
-    width:100%;
+    max-width:100%;
 }
 #videotitle{
     font-size:24px;
