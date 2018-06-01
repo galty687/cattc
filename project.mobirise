@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "第七届计算机辅助翻译与技术传播大赛",
-    "currentPage": "question.html",
+    "currentPage": "sponsors.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -31,7 +31,7 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "siteUrl": "",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 112,
+    "uniqCompNum": 119,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -933,7 +933,8 @@
               "color": "#9fa3a7"
             },
             ".mbr-section-subtitle": {
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "color": "#000000"
             },
             ".mbr-section-text": {
               "color": "#000000"
@@ -992,7 +993,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://weibo.com/kudoschina\" data-toolbar=\"-mbrBtnMove\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "主题"
@@ -1198,7 +1199,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/sdl-600x237.png",
+              "src": "@PROJECT_PATH@/assets/images/pingcap2-400x120.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1207,10 +1208,10 @@
               "title": ""
             }
           },
-          "title1": "SDL",
+          "title1": "PingCAP",
           "subtitle1": "银牌合作伙伴",
-          "caption1": "SDL (LSE:SDL) 是语言翻译技术、服务和内容管理的全球创新者。凭借超过 25 年的丰富经验，SDL 为全球客户提供强大且有针对性的数字体验，交付顺应时代变革的业务成果。旗下的SDL Trados Studio是市场使用率第一的CAT软件。",
-          "number1": "B",
+          "caption1": "PingCAP 是国内第一家开源的新型分布式 NewSQL 数据库公司，秉承开源是基础软件的未来这一理念， PingCAP 持续扩大社区影响力，致力于前沿技术领域的创新实现。",
+          "number1": "C",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
@@ -1226,13 +1227,13 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://sdl.com\" data-toolbar=\"-mbrBtnMove\">网址</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.pingcap.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">网址</a>",
           "alias": "colorm/components",
           "_tags": [
-            "主题"
+            "Theme"
           ],
           "_name": "features7",
-          "_anchor": "features7-1z"
+          "_anchor": "features7-37"
         },
         {
           "_styles": {
@@ -1240,7 +1241,8 @@
               "color": "#9fa3a7"
             },
             ".mbr-section-subtitle": {
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "color": "#000000"
             },
             ".mbr-section-text": {
               "color": "#000000"
@@ -1271,7 +1273,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pingcap-logo-1-381x108.png",
+              "src": "@PROJECT_PATH@/assets/images/20180327153003-1-600x183.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1280,10 +1282,10 @@
               "title": ""
             }
           },
-          "title1": "PingCAP",
-          "subtitle1": "银牌合作伙伴",
-          "caption1": "PingCAP 是国内第一家开源的新型分布式 NewSQL 数据库公司，秉承开源是基础软件的未来这一理念， PingCAP 持续扩大社区影响力，致力于前沿技术领域的创新实现。",
-          "number1": "B",
+          "title1": "SDL",
+          "subtitle1": "工具合作伙伴",
+          "caption1": "SDL (LSE:SDL) 是语言翻译技术、服务和内容管理的全球创新者。凭借超过 25 年的丰富经验，SDL 为全球客户提供强大且有针对性的数字体验，交付顺应时代变革的业务成果。旗下的SDL Trados Studio是市场使用率第一的CAT软件。",
+          "number1": "A",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
@@ -1299,13 +1301,13 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://pingcap.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://sdl.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
-            "主题"
+            "Theme"
           ],
           "_name": "features8",
-          "_anchor": "features8-20"
+          "_anchor": "features8-38"
         },
         {
           "_styles": {
@@ -1354,7 +1356,7 @@
             }
           },
           "title1": "Madcap Flare",
-          "subtitle1": "铜牌合作伙伴",
+          "subtitle1": "工具合作伙伴",
           "caption1": "MADCAP是一家专注于技术写作软件的公司。旗下的MadCap Flare 是强大的基于XML专业程序编写内容以及发表允许技术作者和文件资料专家创建和为多频道的出版管理内容软件的应用程序。",
           "number1": "C",
           "title2": "Responsive",
@@ -1379,6 +1381,153 @@
           ],
           "_name": "features7",
           "_anchor": "features7-22"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "color": "#000000"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c40f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/across-198x65.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "Across",
+          "subtitle1": "工具合作伙伴",
+          "caption1": "Across总部位于德国，专为翻译行业提供翻译资源协调和翻译项目管理软件。旗下的Across Language Server是一套完整翻译解决方案。",
+          "number1": "A",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.across.net/en/\" data-toolbar=\"-mbrBtnMove\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-39"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "imageSize": 50,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-atril-163x110.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "atril",
+          "subtitle1": "工具合作伙伴",
+          "caption1": "总部位于法国的atril公司开发了著名的计算机辅助翻译工具Déjà Vu。",
+          "number1": "C",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"http://atril.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">网址</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-3a"
         }
       ]
     },

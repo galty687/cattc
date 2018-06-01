@@ -873,6 +873,7 @@ blockquote {
 }
 #features8-1y .mbr-section-subtitle {
   text-transform: uppercase;
+  color: #000000;
 }
 #features8-1y .mbr-section-text {
   color: #000000;
@@ -952,22 +953,23 @@ blockquote {
   margin-bottom: 20px;
   margin-top: 0;
 }
-#features7-1z .lead {
+#features7-37 .lead {
   color: #9fa3a7;
 }
-#features7-1z .mbr-section-subtitle {
+#features7-37 .mbr-section-subtitle {
   text-transform: uppercase;
 }
-#features7-1z .mbr-section-text {
+#features7-37 .mbr-section-text {
   color: #000000;
 }
-#features8-20 .lead {
+#features8-38 .lead {
   color: #9fa3a7;
 }
-#features8-20 .mbr-section-subtitle {
+#features8-38 .mbr-section-subtitle {
   text-transform: uppercase;
+  color: #000000;
 }
-#features8-20 .mbr-section-text {
+#features8-38 .mbr-section-text {
   color: #000000;
 }
 #features7-22 .lead {
@@ -977,6 +979,25 @@ blockquote {
   text-transform: uppercase;
 }
 #features7-22 .mbr-section-text {
+  color: #000000;
+}
+#features8-39 .lead {
+  color: #9fa3a7;
+}
+#features8-39 .mbr-section-subtitle {
+  text-transform: uppercase;
+  color: #000000;
+}
+#features8-39 .mbr-section-text {
+  color: #000000;
+}
+#features7-3a .lead {
+  color: #9fa3a7;
+}
+#features7-3a .mbr-section-subtitle {
+  text-transform: uppercase;
+}
+#features7-3a .mbr-section-text {
   color: #000000;
 }
 #menu-16 .hide-buttons .nav-btn {
@@ -1613,7 +1634,6 @@ blockquote {
   margin-top: 0;
 }
 
-
 body,
 input,
 textarea,
@@ -1646,6 +1666,7 @@ textarea,
 video{
     width:100%;
 }
+
 #content1-1d img{
     display:block;
     margin:0 auto;
@@ -1657,6 +1678,7 @@ video{
     margin:0 auto;
     max-width:100%;
 }
+
 #videotitle{
     font-size:24px;
 }
