@@ -31,12 +31,14 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "siteUrl": "",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 131,
+    "uniqCompNum": 135,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
-    "sitemapSwitcherAuto": "on"
+    "sitemapSwitcherAuto": "on",
+    "publishType": "local",
+    "publishPath": "file:///D:/%E7%BD%91%E9%A1%B5/%E6%9C%80%E6%9C%80%E6%96%B0"
   },
   "pages": {
     "index.html": {
@@ -113,7 +115,7 @@
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "计算机辅助翻译与<br>技术传播大赛",
           "text": "第七届",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"finallist.html\" data-toolbar=\"-mbrBtnMove\">决赛名单</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"winners.html\" data-toolbar=\"-mbrBtnMove\">决赛获奖名单</a> ",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -150,7 +152,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "计算机辅助翻译与技术传播大赛（简称CATTC）由北京大学软件与微电子学院，联合中国标准化协会技术传播服务委员会和中国翻译协会本地化服务委员会共同举办，北京大学翻译协会、北京大学技术传播协会联合承办。<div>大赛充分利用北大技术传播系多年来累积的经验与资源，以推广本地化技术及技术传播理念为宗旨，为有志于从事语言服务行业的在校学生和职场人士提供一个了解行业信息、互相交流的平台。各位选手在参与比赛的同时，也能学会更多本地化和技术传播的知识技术，更加深刻地理解语言服务行业，从而促进自身的发展。</div><div>本系列大赛每年度举办一次，接受海内外普通高等学校在读或毕业两年以内的本科生及硕士研究生报名，至今已成功举办六届。</div>",
+          "text": "计算机辅助翻译与技术传播大赛（简称CATTC）由北京大学软件与微电子学院，联合中国标准化协会技术传播服务委员会和中国翻译协会本地化服务委员会共同举办，北京大学翻译协会、北京大学技术传播协会联合承办。<div>大赛充分利用北大技术传播系多年来累积的经验与资源，以推广本地化技术及技术传播理念为宗旨，为有志于从事语言服务行业的在校学生和职场人士提供一个了解行业信息、互相交流的平台。各位选手在参与比赛的同时，也能学会更多本地化和技术传播的知识技术，更加深刻地理解语言服务行业，从而促进自身的发展。</div><div>本系列大赛每年度举办一次，接受海内外普通高等学校在读或毕业两年以内的本科生及硕士研究生报名，至今已成功举办六届。</div><div>第七届CATTC大赛初赛共有1360余名选手报名参赛，计40位选手参加在6月3日举行的决赛。初赛报名情况点击<a href=\"http://cattc-contest.org/bminfo\">这里</a>查看。</div>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -510,7 +512,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1069,7 +1071,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1315,7 +1317,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1557,7 +1559,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1758,7 +1760,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1978,7 +1980,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2198,7 +2200,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2418,7 +2420,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2638,7 +2640,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2858,7 +2860,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -3191,7 +3193,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -3505,6 +3507,226 @@
           ],
           "_name": "features8",
           "_anchor": "features8-3m"
+        }
+      ]
+    },
+    "winners.html": {
+      "settings": {
+        "title": "决赛获奖名单",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 11
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">首页</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">试题</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"question.html\">本届初赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"final.html\">本届决赛试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"previous_questions.html\">往届试题</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"examples.html\">往届优秀作品</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">关于</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"committee.html\">大赛组委会</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sponsors.html\">大赛合作伙伴</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tools-sponsors.html\">工具赞助商</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x122.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-3n"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#169581",
+            "overlayOpacity": "0.6"
+          },
+          "title": "决赛获奖名单",
+          "caption": "<p>Article header with background image and parallax effect.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-3o"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>决赛获奖名单</b></p><br><p><b><br></b></p><p>第七届“全国计算机辅助翻译与技术传播大赛”决赛于2018年6月3日下午，在北京大学中关新园1号楼科学报告厅成功举办，此次八支队伍分获一、二、三等奖，其中一等奖的得主是“六神无阻”小组，另有3个小组获得二等奖，4个小组获得三等奖。此外还给优秀指导教师和部分大学分别颁发了优秀指导教师奖和优秀组织奖。</p><br><p><img alt=\"group2\" src=\"http://www.ss.pku.edu.cn/images/group2.jpeg\"><br></p><br><p>详细名单请见附件：</p><br><p><a href=\"http://www.ss.pku.edu.cn/attachments/article/3622/2018年第七届CATTC大赛获奖名单.pdf\">2018年第七届CATTC大赛获奖名单.pdf</a><br></p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-3p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#34495e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pku-5-165x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "主办单位",
+          "text11": "北京大学软件与微电子学院",
+          "text12": "中国翻译协会本地化服务委员会 ",
+          "text13": "中国标准化协会技术传播服务委员会 ",
+          "text14": "",
+          "text15": "",
+          "title2": "承办单位",
+          "text21": "北京大学翻译协会",
+          "text22": "北京大学技术传播协会",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "联系方式",
+          "text31": "微博：<a href=\"https://weibo.com/pkuati\">@北大译协</a><br><a href=\"https://weibo.com/pkutca\">@北京大学-技术传播协会</a>",
+          "text32": "微信：北大译协<br>北京大学技术传播协会<br>QQ群：440298705",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright © 2018 CATTC.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-3q"
         }
       ]
     }
