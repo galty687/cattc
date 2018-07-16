@@ -2038,7 +2038,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "<b>往届CATTC优秀初赛作品展播</b><br>\n<br><video src=\"https://ob6m646h0.qnssl.com/video.mp4\" controls=\"controls\"><br>-your browser does not support the video tag<br></video><br>",
+          "text": "<b>往届CATTC优秀初赛作品展播</b><br>\n<br><video src=\"http://115.28.52.19/往届CATTC优秀初赛作品展播.mp4\" controls=\"controls\"><br>-your browser does not support the video tag<br></video><br>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
